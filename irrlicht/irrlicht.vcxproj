@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7EBD97C2-19C4-40C8-A09D-8FD7EC796721}</ProjectGuid>
+    <RootNamespace>irrlicht</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(ProjectDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;DLL_EXPORT;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;IRRLICHT_EXPORTS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BuildInFont.h" />
+    <ClInclude Include="CAnimatedMeshMD2.h" />
+    <ClInclude Include="CAnimatedMeshMS3D.h" />
+    <ClInclude Include="CAnimatedMeshSceneNode.h" />
+    <ClInclude Include="CBillboardSceneNode.h" />
+    <ClInclude Include="CBspTree.h" />
+    <ClInclude Include="CBspTreeSceneNode.h" />
+    <ClInclude Include="CCameraMayaSceneNode.h" />
+    <ClInclude Include="CCameraSceneNode.h" />
+    <ClInclude Include="CColorConverter.h" />
+    <ClInclude Include="CDirectX8Texture.h" />
+    <ClInclude Include="CFileList.h" />
+    <ClInclude Include="CFileSystem.h" />
+    <ClInclude Include="CFPSCounter.h" />
+    <ClInclude Include="CGUIButton.h" />
+    <ClInclude Include="CGUICheckbox.h" />
+    <ClInclude Include="CGUIEnvironment.h" />
+    <ClInclude Include="CGUIFileOpenDialog.h" />
+    <ClInclude Include="CGUIFont.h" />
+    <ClInclude Include="CGUIImage.H" />
+    <ClInclude Include="CGUIListBox.h" />
+    <ClInclude Include="CGUIMeshViewer.h" />
+    <ClInclude Include="CGUIScrollBar.h" />
+    <ClInclude Include="CGUISkin.h" />
+    <ClInclude Include="CGUIStaticText.h" />
+    <ClInclude Include="CGUIWindow.h" />
+    <ClInclude Include="CIrrDeviceWin32.h" />
+    <ClInclude Include="CLightSceneNode.h" />
+    <ClInclude Include="CLimitReadFile.h" />
+    <ClInclude Include="CMemoryReadFile.h" />
+    <ClInclude Include="CMeshSceneNode.h" />
+    <ClInclude Include="COctTreeSceneNode.h" />
+    <ClInclude Include="COpenGLTexture.h" />
+    <ClInclude Include="CQ3LevelMesh.h" />
+    <ClInclude Include="CReadFile.h" />
+    <ClInclude Include="CSceneManager.h" />
+    <ClInclude Include="CSceneNodeAnimatorFlyCircle.h" />
+    <ClInclude Include="CSceneNodeAnimatorRotation.h" />
+    <ClInclude Include="CSoftwareTexture.h" />
+    <ClInclude Include="CStaticMeshOBJ.h" />
+    <ClInclude Include="CSurface.h" />
+    <ClInclude Include="CSurfaceLoaderBmp.h" />
+    <ClInclude Include="CSurfaceLoaderJPG.h" />
+    <ClInclude Include="CSurfaceLoaderPSD.h" />
+    <ClInclude Include="CSurfaceLoaderTGA.h" />
+    <ClInclude Include="CTestSceneNode.h" />
+    <ClInclude Include="CTRTextureGouraud.h" />
+    <ClInclude Include="CVideoDirectX8.h" />
+    <ClInclude Include="CVideoNull.h" />
+    <ClInclude Include="CVideoOpenGL.h" />
+    <ClInclude Include="CVideoSoftware.h" />
+    <ClInclude Include="CZBuffer.h" />
+    <ClInclude Include="CZipReader.h" />
+    <ClInclude Include="fast_atof.h" />
+    <ClInclude Include="GUIIcons.h" />
+    <ClInclude Include="IK3DTriangleRenderer.h" />
+    <ClInclude Include="include\aabbox3d.h" />
+    <ClInclude Include="include\array.h" />
+    <ClInclude Include="include\Color.h" />
+    <ClInclude Include="include\dimension2d.h" />
+    <ClInclude Include="include\EDriverTypes.h" />
+    <ClInclude Include="include\heapsort.h" />
+    <ClInclude Include="include\IAnimatedMesh.h" />
+    <ClInclude Include="include\IAnimatedMeshSceneNode.h" />
+    <ClInclude Include="include\IBillboardSceneNode.h" />
+    <ClInclude Include="include\IBspTreeSceneNode.h" />
+    <ClInclude Include="include\ICameraSceneNode.h" />
+    <ClInclude Include="include\IEventReceiver.h" />
+    <ClInclude Include="include\IFileList.h" />
+    <ClInclude Include="include\IFileSystem.h" />
+    <ClInclude Include="include\IGUIButton.h" />
+    <ClInclude Include="include\IGUICheckbox.h" />
+    <ClInclude Include="include\IGUIElement.h" />
+    <ClInclude Include="include\IGUIEnvironment.h" />
+    <ClInclude Include="include\IGUIFileOpenDialog.h" />
+    <ClInclude Include="include\IGUIFont.h" />
+    <ClInclude Include="include\IGUIImage.h" />
+    <ClInclude Include="include\IGUIListBox.h" />
+    <ClInclude Include="include\IGUIMeshViewer.h" />
+    <ClInclude Include="include\IGUIScrollBar.h" />
+    <ClInclude Include="include\IGUISkin.h" />
+    <ClInclude Include="include\IGUIWindow.h" />
+    <ClInclude Include="include\ILightSceneNode.h" />
+    <ClInclude Include="include\IMesh.h" />
+    <ClInclude Include="include\IMeshBuffer.h" />
+    <ClInclude Include="include\IQ3LevelMesh.h" />
+    <ClInclude Include="include\IReadFile.H" />
+    <ClInclude Include="include\Irrlicht.h" />
+    <ClInclude Include="include\IrrlichtDevice.h" />
+    <ClInclude Include="include\irrmath.h" />
+    <ClInclude Include="include\irrstring.h" />
+    <ClInclude Include="include\irrTypes.h" />
+    <ClInclude Include="include\ISceneManager.h" />
+    <ClInclude Include="include\ISceneNode.h" />
+    <ClInclude Include="include\ISceneNodeAnimator.h" />
+    <ClInclude Include="include\ITexture.h" />
+    <ClInclude Include="include\IUnknown.h" />
+    <ClInclude Include="include\IVideoDriver.h" />
+    <ClInclude Include="include\Keycodes.h" />
+    <ClInclude Include="include\line2d.h" />
+    <ClInclude Include="include\line3d.h" />
+    <ClInclude Include="include\list.h" />
+    <ClInclude Include="include\matrix4.h" />
+    <ClInclude Include="include\plane3d.h" />
+    <ClInclude Include="include\plane3dex.h" />
+    <ClInclude Include="include\position2d.h" />
+    <ClInclude Include="include\rect.h" />
+    <ClInclude Include="include\S3DVertex.h" />
+    <ClInclude Include="include\SLight.h" />
+    <ClInclude Include="include\SMaterial.h" />
+    <ClInclude Include="include\SMesh.h" />
+    <ClInclude Include="include\SMeshBuffer.h" />
+    <ClInclude Include="include\SMeshBufferLightMap.h" />
+    <ClInclude Include="include\vector2d.h" />
+    <ClInclude Include="include\vector3d.h" />
+    <ClInclude Include="ISurface.h" />
+    <ClInclude Include="ISurfaceLoader.h" />
+    <ClInclude Include="ISurfacePresenter.h" />
+    <ClInclude Include="IZBuffer.h" />
+    <ClInclude Include="jpeglib\CDERROR.H" />
+    <ClInclude Include="jpeglib\CDJPEG.H" />
+    <ClInclude Include="jpeglib\JCHUFF.H" />
+    <ClInclude Include="jpeglib\JCONFIG.H" />
+    <ClInclude Include="jpeglib\JDCT.H" />
+    <ClInclude Include="jpeglib\JDHUFF.H" />
+    <ClInclude Include="jpeglib\JERROR.H" />
+    <ClInclude Include="jpeglib\JINCLUDE.H" />
+    <ClInclude Include="jpeglib\JMEMSYS.H" />
+    <ClInclude Include="jpeglib\JMORECFG.H" />
+    <ClInclude Include="jpeglib\JPEGINT.H" />
+    <ClInclude Include="jpeglib\JPEGLIB.H" />
+    <ClInclude Include="jpeglib\JVERSION.H" />
+    <ClInclude Include="OctTree.h" />
+    <ClInclude Include="os.h" />
+    <ClInclude Include="S2DVertex.h" />
+    <ClInclude Include="zlib\crc32.h" />
+    <ClInclude Include="zlib\deflate.h" />
+    <ClInclude Include="zlib\gzguts.h" />
+    <ClInclude Include="zlib\inffast.h" />
+    <ClInclude Include="zlib\inffixed.h" />
+    <ClInclude Include="zlib\inflate.h" />
+    <ClInclude Include="zlib\inftrees.h" />
+    <ClInclude Include="zlib\trees.h" />
+    <ClInclude Include="zlib\zconf.h" />
+    <ClInclude Include="zlib\zlib.h" />
+    <ClInclude Include="zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAnimatedMeshMD2.cpp" />
+    <ClCompile Include="CAnimatedMeshMS3D.cpp" />
+    <ClCompile Include="CAnimatedMeshSceneNode.cpp" />
+    <ClCompile Include="CBillboardSceneNode.cpp" />
+    <ClCompile Include="CBspTree.cpp" />
+    <ClCompile Include="CBspTreeSceneNode.cpp" />
+    <ClCompile Include="CCameraMayaSceneNode.cpp" />
+    <ClCompile Include="CCameraSceneNode.cpp" />
+    <ClCompile Include="CColorConverter.cpp" />
+    <ClCompile Include="CDirectX8Texture.cpp" />
+    <ClCompile Include="CFileList.cpp" />
+    <ClCompile Include="CFileSystem.cpp" />
+    <ClCompile Include="CFPSCounter.cpp" />
+    <ClCompile Include="CGUIButton.cpp" />
+    <ClCompile Include="CGUICheckbox.cpp" />
+    <ClCompile Include="CGUIEnvironment.cpp" />
+    <ClCompile Include="CGUIFileOpenDialog.cpp" />
+    <ClCompile Include="CGUIFont.cpp" />
+    <ClCompile Include="CGUIImage.cpp" />
+    <ClCompile Include="CGUIListBox.cpp" />
+    <ClCompile Include="CGUIMeshViewer.cpp" />
+    <ClCompile Include="CGUIScrollBar.cpp" />
+    <ClCompile Include="CGUISkin.cpp" />
+    <ClCompile Include="CGUIStaticText.cpp" />
+    <ClCompile Include="CGUIWindow.cpp" />
+    <ClCompile Include="CIrrDeviceWin32.cpp" />
+    <ClCompile Include="CLightSceneNode.cpp" />
+    <ClCompile Include="CLimitReadFile.cpp" />
+    <ClCompile Include="CMemoryReadFile.cpp" />
+    <ClCompile Include="CMeshSceneNode.cpp" />
+    <ClCompile Include="COctTreeSceneNode.cpp" />
+    <ClCompile Include="COpenGLTexture.cpp" />
+    <ClCompile Include="CQ3LevelMesh.cpp" />
+    <ClCompile Include="CReadFile.cpp" />
+    <ClCompile Include="CSceneManager.cpp" />
+    <ClCompile Include="CSceneNodeAnimatorFlyCircle.cpp" />
+    <ClCompile Include="CSceneNodeAnimatorRotation.cpp" />
+    <ClCompile Include="CSoftwareTexture.cpp" />
+    <ClCompile Include="CStaticMeshOBJ.cpp" />
+    <ClCompile Include="CSurface.cpp" />
+    <ClCompile Include="CSurfaceLoaderBmp.cpp" />
+    <ClCompile Include="CSurfaceLoaderJPG.cpp" />
+    <ClCompile Include="CSurfaceLoaderPSD.cpp" />
+    <ClCompile Include="CSurfaceLoaderTGA.cpp" />
+    <ClCompile Include="CTestSceneNode.cpp" />
+    <ClCompile Include="CTRFlat.cpp" />
+    <ClCompile Include="CTRFlatWire.cpp" />
+    <ClCompile Include="CTRGouraud.cpp" />
+    <ClCompile Include="CTRGouraudWire.cpp" />
+    <ClCompile Include="CTRTextureFlat.cpp" />
+    <ClCompile Include="CTRTextureFlatWire.cpp" />
+    <ClCompile Include="CTRTextureGouraud.cpp" />
+    <ClCompile Include="CTRTextureGouraudWire.cpp" />
+    <ClCompile Include="CVideoDirectX8.cpp" />
+    <ClCompile Include="CVideoNull.cpp" />
+    <ClCompile Include="CVideoOpenGL.cpp" />
+    <ClCompile Include="CVideoSoftware.cpp" />
+    <ClCompile Include="CZBuffer.cpp" />
+    <ClCompile Include="CZipReader.cpp" />
+    <ClCompile Include="Irrlicht.cpp" />
+    <ClCompile Include="jpeglib\JCAPIMIN.C" />
+    <ClCompile Include="jpeglib\JCAPISTD.C" />
+    <ClCompile Include="jpeglib\JCCOEFCT.C" />
+    <ClCompile Include="jpeglib\JCCOLOR.C" />
+    <ClCompile Include="jpeglib\JCDCTMGR.C" />
+    <ClCompile Include="jpeglib\JCHUFF.C" />
+    <ClCompile Include="jpeglib\JCINIT.C" />
+    <ClCompile Include="jpeglib\JCMAINCT.C" />
+    <ClCompile Include="jpeglib\JCMARKER.C" />
+    <ClCompile Include="jpeglib\JCMASTER.C" />
+    <ClCompile Include="jpeglib\JCOMAPI.C" />
+    <ClCompile Include="jpeglib\JCPARAM.C" />
+    <ClCompile Include="jpeglib\JCPHUFF.C" />
+    <ClCompile Include="jpeglib\JCPREPCT.C" />
+    <ClCompile Include="jpeglib\JCSAMPLE.C" />
+    <ClCompile Include="jpeglib\JCTRANS.C" />
+    <ClCompile Include="jpeglib\JDAPIMIN.C" />
+    <ClCompile Include="jpeglib\JDAPISTD.C" />
+    <ClCompile Include="jpeglib\JDATADST.C" />
+    <ClCompile Include="jpeglib\JDATASRC.C" />
+    <ClCompile Include="jpeglib\JDCOEFCT.C" />
+    <ClCompile Include="jpeglib\JDCOLOR.C" />
+    <ClCompile Include="jpeglib\JDDCTMGR.C" />
+    <ClCompile Include="jpeglib\JDHUFF.C" />
+    <ClCompile Include="jpeglib\JDINPUT.C" />
+    <ClCompile Include="jpeglib\JDMAINCT.C" />
+    <ClCompile Include="jpeglib\JDMARKER.C" />
+    <ClCompile Include="jpeglib\JDMASTER.C" />
+    <ClCompile Include="jpeglib\JDMERGE.C" />
+    <ClCompile Include="jpeglib\JDPHUFF.C" />
+    <ClCompile Include="jpeglib\JDPOSTCT.C" />
+    <ClCompile Include="jpeglib\JDSAMPLE.C" />
+    <ClCompile Include="jpeglib\JDTRANS.C" />
+    <ClCompile Include="jpeglib\JERROR.C" />
+    <ClCompile Include="jpeglib\JFDCTFLT.C" />
+    <ClCompile Include="jpeglib\JFDCTFST.C" />
+    <ClCompile Include="jpeglib\JFDCTINT.C" />
+    <ClCompile Include="jpeglib\JIDCTFLT.C" />
+    <ClCompile Include="jpeglib\JIDCTFST.C" />
+    <ClCompile Include="jpeglib\JIDCTINT.C" />
+    <ClCompile Include="jpeglib\JIDCTRED.C" />
+    <ClCompile Include="jpeglib\JMEMMGR.C" />
+    <ClCompile Include="jpeglib\JMEMNOBS.C" />
+    <ClCompile Include="jpeglib\JPEGTRAN.C" />
+    <ClCompile Include="jpeglib\JQUANT1.C" />
+    <ClCompile Include="jpeglib\JQUANT2.C" />
+    <ClCompile Include="jpeglib\JUTILS.C" />
+    <ClCompile Include="os.cpp" />
+    <ClCompile Include="zlib\adler32.c" />
+    <ClCompile Include="zlib\compress.c" />
+    <ClCompile Include="zlib\crc32.c" />
+    <ClCompile Include="zlib\deflate.c" />
+    <ClCompile Include="zlib\gzclose.c" />
+    <ClCompile Include="zlib\gzlib.c" />
+    <ClCompile Include="zlib\gzread.c" />
+    <ClCompile Include="zlib\gzwrite.c" />
+    <ClCompile Include="zlib\infback.c" />
+    <ClCompile Include="zlib\inffast.c" />
+    <ClCompile Include="zlib\inflate.c" />
+    <ClCompile Include="zlib\inftrees.c" />
+    <ClCompile Include="zlib\trees.c" />
+    <ClCompile Include="zlib\uncompr.c" />
+    <ClCompile Include="zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Irrlicht.dsp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="source.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

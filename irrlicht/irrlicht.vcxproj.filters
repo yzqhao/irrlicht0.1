@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{76a34c7d-fe4a-440d-bd41-859b9b81e436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jpeg">
+      <UniqueIdentifier>{6c50d895-fe73-4d3e-bc91-0a3e74a48ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{c92ae947-dc4b-48e0-8394-c6fc929d5361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{a7b051db-557d-427e-8873-9f72bb43e1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{768d750e-4df6-4ab3-9fe5-7e1e27015b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{346aff87-0dda-4e43-bcbb-17ab0c46f4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{9872809b-483d-483b-bdad-004df45fe4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video">
+      <UniqueIdentifier>{b809b803-b28d-4557-9086-0e7d0fd4c2b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BuildInFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimatedMeshMD2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimatedMeshMS3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimatedMeshSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBillboardSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBspTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBspTreeSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraMayaSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CColorConverter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectX8Texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFPSCounter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUICheckbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIEnvironment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIFileOpenDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIImage.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIMeshViewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIScrollBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUISkin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIStaticText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CIrrDeviceWin32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLightSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLimitReadFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryReadFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COctTreeSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGLTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CQ3LevelMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CReadFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneNodeAnimatorFlyCircle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneNodeAnimatorRotation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoftwareTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStaticMeshOBJ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSurface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSurfaceLoaderBmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSurfaceLoaderJPG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSurfaceLoaderPSD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSurfaceLoaderTGA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTestSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTRTextureGouraud.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideoDirectX8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideoNull.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideoOpenGL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideoSoftware.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CZBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CZipReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_atof.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIIcons.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IK3DTriangleRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurfaceLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurfacePresenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IZBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OctTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="os.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="S2DVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\heapsort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IEventReceiver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Irrlicht.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IrrlichtDevice.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\irrTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IUnknown.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\CDERROR.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\CDJPEG.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JCHUFF.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JCONFIG.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JDCT.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JDHUFF.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JERROR.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JINCLUDE.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JMEMSYS.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JMORECFG.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JPEGINT.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JPEGLIB.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib\JVERSION.H">
+      <Filter>jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector3d.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SMeshBufferLightMap.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector2d.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SMeshBuffer.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SMesh.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SMaterial.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\S3DVertex.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SLight.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\list.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\matrix4.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plane3d.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plane3dex.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\position2d.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rect.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Keycodes.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\line2d.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\line3d.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IVideoDriver.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ITexture.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ISceneNodeAnimator.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ISceneManager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ISceneNode.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\irrstring.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\irrmath.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IQ3LevelMesh.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIButton.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUICheckbox.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIElement.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIEnvironment.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIFileOpenDialog.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIFont.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIImage.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIListBox.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIMeshViewer.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIScrollBar.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUISkin.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUIWindow.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IMeshBuffer.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IMesh.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFileList.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IReadFile.H">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFileSystem.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ILightSceneNode.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\aabbox3d.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\array.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Color.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ICameraSceneNode.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IAnimatedMesh.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IAnimatedMeshSceneNode.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IBillboardSceneNode.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IBspTreeSceneNode.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EDriverTypes.h">
+      <Filter>video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dimension2d.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CIrrDeviceWin32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Irrlicht.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCAPIMIN.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCAPISTD.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCCOEFCT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCCOLOR.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCDCTMGR.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCHUFF.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCINIT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCMAINCT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCMARKER.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCMASTER.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCOMAPI.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCPARAM.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCPHUFF.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCPREPCT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCSAMPLE.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JCTRANS.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDAPIMIN.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDAPISTD.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDATADST.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDATASRC.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDCOEFCT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDCOLOR.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDDCTMGR.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDHUFF.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDINPUT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDMAINCT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDMARKER.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDMASTER.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDMERGE.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDPHUFF.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDPOSTCT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDSAMPLE.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JDTRANS.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JERROR.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JFDCTFLT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JFDCTFST.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JFDCTINT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JIDCTFLT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JIDCTFST.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JIDCTINT.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JIDCTRED.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JMEMMGR.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JMEMNOBS.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JPEGTRAN.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JQUANT1.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JQUANT2.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeglib\JUTILS.C">
+      <Filter>jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimatedMeshMD2.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimatedMeshMS3D.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimatedMeshSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CBillboardSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CBspTree.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CBspTreeSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraMayaSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirectX8Texture.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CColorConverter.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileSystem.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileList.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="CFPSCounter.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIButton.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUICheckbox.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIEnvironment.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIFileOpenDialog.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIFont.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIImage.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIListBox.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIMeshViewer.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIScrollBar.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUISkin.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIStaticText.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIWindow.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CMemoryReadFile.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="CLimitReadFile.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="COctTreeSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="COpenGLTexture.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CQ3LevelMesh.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="os.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="CReadFile.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="CZipReader.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="CTRFlat.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CTRFlatWire.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CTRGouraud.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CTRGouraudWire.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CTRTextureFlat.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CTRTextureFlatWire.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CTRTextureGouraud.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CTRTextureGouraudWire.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideoDirectX8.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideoNull.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideoOpenGL.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideoSoftware.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CZBuffer.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CSurfaceLoaderTGA.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CSurface.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CSurfaceLoaderBmp.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CSurfaceLoaderJPG.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CSurfaceLoaderPSD.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CStaticMeshOBJ.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftwareTexture.cpp">
+      <Filter>video</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestSceneNode.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneNodeAnimatorFlyCircle.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneNodeAnimatorRotation.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Irrlicht.dsp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="source.txt" />
+  </ItemGroup>
+</Project>
