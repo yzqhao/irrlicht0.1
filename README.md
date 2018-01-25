@@ -18,3 +18,7 @@ Irrlicht的场景中的所有的东西都是场景节点，统一由场景管理
 5）FileSystem
 该部分负责文件系统的读写。
 对应的名字空间为：namespace irr::io
+
+相关修改：
+1）direct8改为direct9
+1）删除line2d.h，没有被引用

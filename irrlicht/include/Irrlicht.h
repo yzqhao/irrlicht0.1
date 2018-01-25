@@ -64,7 +64,6 @@
 #include "IUnknown.h"
 #include "IVideoDriver.h"
 #include "Keycodes.h"
-#include "line2d.h"
 #include "line3d.h"
 #include "list.h"
 #include "matrix4.h"

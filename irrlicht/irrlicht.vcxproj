@@ -167,7 +167,6 @@
     <ClInclude Include="include\IUnknown.h" />
     <ClInclude Include="include\IVideoDriver.h" />
     <ClInclude Include="include\Keycodes.h" />
-    <ClInclude Include="include\line2d.h" />
     <ClInclude Include="include\line3d.h" />
     <ClInclude Include="include\list.h" />
     <ClInclude Include="include\matrix4.h" />

@@ -5,17 +5,17 @@
 # TARGTYPE "Win32 (x86) Dynamic-Link Library" 0x0102
 
 CFG=Irrlicht - Win32 Debug
-!MESSAGE Dies ist kein gültiges Makefile. Zum Erstellen dieses Projekts mit NMAKE
-!MESSAGE verwenden Sie den Befehl "Makefile exportieren" und führen Sie den Befehl
+!MESSAGE Dies ist kein gï¿½ltiges Makefile. Zum Erstellen dieses Projekts mit NMAKE
+!MESSAGE verwenden Sie den Befehl "Makefile exportieren" und fï¿½hren Sie den Befehl
 !MESSAGE 
 !MESSAGE NMAKE /f "Irrlicht.mak".
 !MESSAGE 
-!MESSAGE Sie können beim Ausführen von NMAKE eine Konfiguration angeben
+!MESSAGE Sie kï¿½nnen beim Ausfï¿½hren von NMAKE eine Konfiguration angeben
 !MESSAGE durch Definieren des Makros CFG in der Befehlszeile. Zum Beispiel:
 !MESSAGE 
 !MESSAGE NMAKE /f "Irrlicht.mak" CFG="Irrlicht - Win32 Debug"
 !MESSAGE 
-!MESSAGE Für die Konfiguration stehen zur Auswahl:
+!MESSAGE Fï¿½r die Konfiguration stehen zur Auswahl:
 !MESSAGE 
 !MESSAGE "Irrlicht - Win32 Release" (basierend auf  "Win32 (x86) Dynamic-Link Library")
 !MESSAGE "Irrlicht - Win32 Debug" (basierend auf  "Win32 (x86) Dynamic-Link Library")
@@ -150,10 +150,6 @@ SOURCE=.\include\irrmath.h
 # Begin Source File
 
 SOURCE=.\include\irrstring.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\include\line2d.h
 # End Source File
 # Begin Source File
 
