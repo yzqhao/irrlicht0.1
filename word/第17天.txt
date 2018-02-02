@@ -1,0 +1,13 @@
+今天开始看图像用户界面（GUI）的实现了。首先是include\gui下的头文件，先预览各个文件的预定义部分，发现大多数都包含了IGUIElement.h头文件，所以首先看IGUIEnvironment.h。在该文件里实现了一个GUI全部元素（或者说GUI组件更贴切点吧）的基类。处理GUI元素的显示位置，元素与子元素的关系，元素的基本属性等等。
+ 
+看完GUI所有元素的基类，接着看各个元素的实现了，先看IGUIWindow.h了，这个接口类声明了默认的可移动GUI窗口元素，该窗口含边框、标题以及关闭图标。
+ 
+在IGUIScrollBar.h中，声明了一个滚动条的类。IGUIFont.h文件里实现了处理文本字体的类，有载入字体、绘制文本等操作。IGUIButton.h则是对按钮控件的实现，从该接口类中的内容来看，按钮与字体的关系密切（按钮使用含某种字体的皮肤）。IGUISkin.h文件实现了GUI组件所需的皮肤类，即修饰GUI组件外观用的。
+ 
+IGUICheckbox.h中，实现了GUI复选框控件接口类。IGUIFileOpenDialog.h文件则声明了一个标准的文件选择对话框接口类。IGUIImage.h文件实现了GUI的图像组件接口类。IGUIListBox.h声明了GUI列表框接口类。IGUIMeshViewer.h则声明了一个用于显示3D网格的接口类。
+ 
+最后看IGUIEnvironment.h，该文中声明IGUIEnvironment接口类，是所有GUI元素（组件）的管理器，它集成了各个元素（组件）的创建方法，以及获取GUI元素（组件）的焦点事件，绘制所有元素（组件）等等。
+ 
+至此include\gui下的头文件全部KO，明天开始看gui impl下的GUI具体实现了。
+ 
+OVER！今天解决12个代码文件，还剩28个。

@@ -1,0 +1,26 @@
+在目测了一番后，决定从io模块下手。
+
+先看IFileList.h，顾名思义，创建了一个文件列表类，一个基类。然后看IReadFile.h，创建了用于读取文件的基类，在前两个的基础上实现了IFileList.h中的文件系统类。文件系统(File System)管理文件和Zip文档，并提供对它们的访问。中这样在include\io中的3个头文件全搞定，接下来看io模块的实现部分。
+ 
+在io impl中，先看了CFileList.h，里面实现了一个继承了IFilelList类的文件列表类，CFileList.cpp完成了类的定义。
+ 
+因为读取文件分两部分构成，一部分是普通文件读取，一部分Zip文档阅读器。首先看文件读取，CReadFile.h, 里面实现了一个继承了IReadFile类的读取文件类，CReadFile.cpp完成了对类的定义。然后是CZipReader.h/.cpp，这部分实现一个Zip文件阅读器，该阅读器没有解压缩数据，只读取文件，打开解压缩条目。该阅读器包含了other impl中的os.h以及“zlib”中的zlib.h。
+ 
+在CZipReader.cpp中，类的析构函数如下：
+[cpp] view plain copy
+CZipReader::~CZipReader()  
+{  
+    if (File)  
+    {  
+   
+        File->drop();  
+    }  
+   
+    s32 count = (s32)FileList.size();    //  这句不是多余的吗？  
+}  
+
+对于实现Zip阅读器的代码，还要多看看，比如实现扫描本地头文件的那个函数。
+ 
+今天新增doc\Todo.txt，用于记录引擎作者在源代码中标注的还需完善功能的地方的信息。
+ 
+OVER！今天解决9个代码文件，还剩151个。

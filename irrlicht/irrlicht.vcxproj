@@ -16,7 +16,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
@@ -40,7 +40,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(ProjectDir)\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(ProjectDir)\jpeglib;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -51,6 +52,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Jpeglib2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -275,53 +277,6 @@
     <ClCompile Include="CZBuffer.cpp" />
     <ClCompile Include="CZipReader.cpp" />
     <ClCompile Include="Irrlicht.cpp" />
-    <ClCompile Include="jpeglib\JCAPIMIN.C" />
-    <ClCompile Include="jpeglib\JCAPISTD.C" />
-    <ClCompile Include="jpeglib\JCCOEFCT.C" />
-    <ClCompile Include="jpeglib\JCCOLOR.C" />
-    <ClCompile Include="jpeglib\JCDCTMGR.C" />
-    <ClCompile Include="jpeglib\JCHUFF.C" />
-    <ClCompile Include="jpeglib\JCINIT.C" />
-    <ClCompile Include="jpeglib\JCMAINCT.C" />
-    <ClCompile Include="jpeglib\JCMARKER.C" />
-    <ClCompile Include="jpeglib\JCMASTER.C" />
-    <ClCompile Include="jpeglib\JCOMAPI.C" />
-    <ClCompile Include="jpeglib\JCPARAM.C" />
-    <ClCompile Include="jpeglib\JCPHUFF.C" />
-    <ClCompile Include="jpeglib\JCPREPCT.C" />
-    <ClCompile Include="jpeglib\JCSAMPLE.C" />
-    <ClCompile Include="jpeglib\JCTRANS.C" />
-    <ClCompile Include="jpeglib\JDAPIMIN.C" />
-    <ClCompile Include="jpeglib\JDAPISTD.C" />
-    <ClCompile Include="jpeglib\JDATADST.C" />
-    <ClCompile Include="jpeglib\JDATASRC.C" />
-    <ClCompile Include="jpeglib\JDCOEFCT.C" />
-    <ClCompile Include="jpeglib\JDCOLOR.C" />
-    <ClCompile Include="jpeglib\JDDCTMGR.C" />
-    <ClCompile Include="jpeglib\JDHUFF.C" />
-    <ClCompile Include="jpeglib\JDINPUT.C" />
-    <ClCompile Include="jpeglib\JDMAINCT.C" />
-    <ClCompile Include="jpeglib\JDMARKER.C" />
-    <ClCompile Include="jpeglib\JDMASTER.C" />
-    <ClCompile Include="jpeglib\JDMERGE.C" />
-    <ClCompile Include="jpeglib\JDPHUFF.C" />
-    <ClCompile Include="jpeglib\JDPOSTCT.C" />
-    <ClCompile Include="jpeglib\JDSAMPLE.C" />
-    <ClCompile Include="jpeglib\JDTRANS.C" />
-    <ClCompile Include="jpeglib\JERROR.C" />
-    <ClCompile Include="jpeglib\JFDCTFLT.C" />
-    <ClCompile Include="jpeglib\JFDCTFST.C" />
-    <ClCompile Include="jpeglib\JFDCTINT.C" />
-    <ClCompile Include="jpeglib\JIDCTFLT.C" />
-    <ClCompile Include="jpeglib\JIDCTFST.C" />
-    <ClCompile Include="jpeglib\JIDCTINT.C" />
-    <ClCompile Include="jpeglib\JIDCTRED.C" />
-    <ClCompile Include="jpeglib\JMEMMGR.C" />
-    <ClCompile Include="jpeglib\JMEMNOBS.C" />
-    <ClCompile Include="jpeglib\JPEGTRAN.C" />
-    <ClCompile Include="jpeglib\JQUANT1.C" />
-    <ClCompile Include="jpeglib\JQUANT2.C" />
-    <ClCompile Include="jpeglib\JUTILS.C" />
     <ClCompile Include="os.cpp" />
     <ClCompile Include="zlib\adler32.c" />
     <ClCompile Include="zlib\compress.c" />
@@ -340,6 +295,7 @@
     <ClCompile Include="zlib\zutil.c" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="Irrlicht.dsp" />
   </ItemGroup>
   <ItemGroup>

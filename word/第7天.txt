@@ -1,0 +1,21 @@
+首先看了一下include\scene下的头文件，发现多个头文件的预定义中包含了include\video中的头文件，所以决定先从include\video下的头文件看起。
+ 
+首先是Color.h，这个文件实现了一个32位真彩色类（分32位整型和32位浮点型两种），该类用于引擎的大部分地方。只是在该类的方法中，对于设置颜色的各分量，有不同意见，如在设置alpha分量中：
+color =((a & 0xff)<<24) |(((color>>16)& 0xff)<<16) | ((color>>8 &0xff)<<8) | (color & 0xff);
+为什么不是：color = (a &0xff)<<24 | (color & 0x00ffffff);
+ 
+接着看EDriverTypes.h，在这个文件里枚举了Irrlicht引擎所支持的全部驱动程序类型，包括空设备（DT_NULL）、软件设备（DT_SOFTWARE）、DirectX 8设备（DT_DIRECTX8）、OpenGL设备（DT_OPENGL）。
+ 
+在ITexture.h中，建立了一个纹理颜色格式的枚举类型，定义了一个纹理接口。该接口包含了访问纹理信息时所必需的lock()和unlock()函数，以及获取纹理各种信息的方法。
+ 
+在S3DVertex.h中，实现了顶点（vertex）的2个类型：用于引擎的标准顶点类型（EVT_STANDARD）和两个纹理同一坐标的顶点(EVT_2TCOORDS)。两个顶点类型均用struct定义（S3Dvertex和S3DVertex2TCoords），所以这也是为什么该文件名开头为S了。
+ 
+在SLight.h中，描述了一个动态的点光源的相关信息，比如环境光照、扩散光照、反射光照、光源位置、光照范围、光强度的衰减等。
+ 
+在SMaterial.h中，实现了材质相关的各种信息，包括材质的种类，材质标志，以及实现材质的结构体。
+ 
+在IVideoDriver.h中，定义了驱动程序的接口，所有渲染和纹理操作都通过这个接口完成。定义了材质、纹理、光源等相关操作。该文件内容丰富，需要细看。
+ 
+至此完成了include\video下所有文件剖析。
+ 
+OVER！今天解决7个代码文件，还剩135个。

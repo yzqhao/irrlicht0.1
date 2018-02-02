@@ -1,0 +1,2986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="irr::IEventReceiver" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::IrrlichtDevice" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAAAAAgAAAAAAAAAABAAAAAAiAAgAAAAAAgAEA=</HashCode>
+      <FileName>include\IrrlichtDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::IUnknown" Collapsed="true">
+    <Position X="57.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAACAAAAAAAEAQAAAEAACAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IUnknown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::CIrrDeviceWin32" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgCIAAAkAAAAAAAQAIBAAKAAAqAAgAAAAgAAAEQ=</HashCode>
+      <FileName>CIrrDeviceWin32.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::OctTree&lt;T&gt;" Collapsed="true">
+    <Position X="64.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAEAAAAACAAAgAAAAIAAAAAAAAABIgAAAAAAAA=</HashCode>
+      <FileName>OctTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIElement" Collapsed="true">
+    <Position X="20" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgCAgECkQCEIFMEyACAAAAQQAAAAAAIiAAAAEI=</HashCode>
+      <FileName>include\IGUIElement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIFont" Collapsed="true">
+    <Position X="19.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IGUIFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIButton" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAACAAAAAAA=</HashCode>
+      <FileName>include\IGUIButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUICheckBox" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAIAAAAAAAAAAAAAIACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IGUICheckbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIEnvironment" Collapsed="true">
+    <Position X="32" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAQAgAwCAAAAwCAAAgAAAAAgCJwAoAACABAAA=</HashCode>
+      <FileName>include\IGUIEnvironment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUISkin" Collapsed="true">
+    <Position X="16.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAgAAAAAAAAAAAAAgAAIAAAAgAAIAAA=</HashCode>
+      <FileName>include\IGUISkin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIWindow" Collapsed="true">
+    <Position X="17.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IGUIWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIScrollBar" Collapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAACAAAAAAAAAAAAAAAAAIAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IGUIScrollBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIImage" Collapsed="true">
+    <Position X="22.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAABAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IGUIImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIMeshViewer" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAABAAABAAAAAAAAQABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IGUIMeshViewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIListBox" Collapsed="true">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAgIAAAAAACBAAAAAAABgABAAAAQAAAAAAA=</HashCode>
+      <FileName>include\IGUIListBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::IGUIFileOpenDialog" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAA=</HashCode>
+      <FileName>include\IGUIFileOpenDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIButton" Collapsed="true">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAAIAAAAAACAEIAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>CGUIButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUICheckBox" Collapsed="true">
+    <Position X="13.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAIAACAAEIAAAAAAAACAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>CGUICheckbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIEnvironment" Collapsed="true">
+    <Position X="20" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBQgEAGAQCgAwCAAAMwCAAAgAAQAggCJwAoIACAAgAA=</HashCode>
+      <FileName>CGUIEnvironment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIFileOpenDialog" Collapsed="true">
+    <Position X="29" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIBCAAAAAAAAAAEIACIAAAACAAgAAAABABACQAAg=</HashCode>
+      <FileName>CGUIFileOpenDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIFont" Collapsed="true">
+    <Position X="19.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABIQAAAAgAAICAAAAAAAAgAAAAAIAAAAAAQA=</HashCode>
+      <FileName>CGUIFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIImage" Collapsed="true">
+    <Position X="22.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQJAAAAAEAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>CGUIImage.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIListBox" Collapsed="true">
+    <Position X="26.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAgACAAIAEKBIAgAAAAh4AAAAEARAACCAAI=</HashCode>
+      <FileName>CGUIListBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIMeshViewer" Collapsed="true">
+    <Position X="24.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAAAAAAAFIAAAAAAAQBAAAEAQAAAAAAAAA=</HashCode>
+      <FileName>CGUIMeshViewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIScrollBar" Collapsed="true">
+    <Position X="20" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAACAABBAAACAAEMgCACAAACJAAAAAAAAAAggAAA=</HashCode>
+      <FileName>CGUIScrollBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUISkin" Collapsed="true">
+    <Position X="16.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIACAAwAAAAAAAAAAAAAgAAICAAAgAAKAAA=</HashCode>
+      <FileName>CGUISkin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIStaticText" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEIAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CGUIStaticText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::gui::CGUIWindow" Collapsed="true">
+    <Position X="17.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIIAAAAAACAAAAEIACAAAAAAAAAAAAAAAAAAUAAA=</HashCode>
+      <FileName>CGUIWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::aabbox3d&lt;T&gt;" Collapsed="true">
+    <Position X="54" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAAIAAAAAgAAQAAAAAAACAAAAEAIAEAQQA=</HashCode>
+      <FileName>include\aabbox3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::array&lt;T&gt;" Collapsed="true">
+    <Position X="55.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAgAACACAAAABIkIAAACMAEAAgAAAECwQAYAAIA=</HashCode>
+      <FileName>include\array.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::dimension2d&lt;T&gt;" Collapsed="true">
+    <Position X="55.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAUAQAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\dimension2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::string&lt;T&gt;" Collapsed="true">
+    <Position X="27.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAEABAAAAEBMgAIQAAAAEAAgIAAAEgQAAAAAA=</HashCode>
+      <FileName>include\irrstring.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::line3d&lt;T&gt;" Collapsed="true">
+    <Position X="59.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGAAAAAAAgAAAAAQAAAACAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>include\line3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::list&lt;T&gt;" Collapsed="true">
+    <Position X="61" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAiACAICAAAAAAIEoAAASAAAAAAAAgAAAAAAACgA=</HashCode>
+      <FileName>include\list.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::matrix4" Collapsed="true">
+    <Position X="62.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAQAAgAAACEAACGQAAECCCACICAACgAEICACA=</HashCode>
+      <FileName>include\matrix4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::plane3d&lt;T&gt;" Collapsed="true">
+    <Position X="66.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAACAAAAAQAAQABAAAoAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>include\plane3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::plane3dex&lt;T&gt;" Collapsed="true">
+    <Position X="54" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAACAAAAAQAAQARAAAIAAAIAAABBAAAAAA=</HashCode>
+      <FileName>include\plane3dex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::position2d&lt;T&gt;" Collapsed="true">
+    <Position X="55.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAAgAAAAYAA=</HashCode>
+      <FileName>include\position2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::rect&lt;T&gt;" Collapsed="true">
+    <Position X="59.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAIQBAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::rectEx&lt;T&gt;" Collapsed="true">
+    <Position X="61" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAAAAAAAAAAAAAgIIQAAAAAARAAAEAAwAAAAAAA=</HashCode>
+      <FileName>include\rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::vector2d&lt;T&gt;" Collapsed="true">
+    <Position X="23.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAUIAAAAAQAAQAAAAAAAABAAAAgAAAAYAA=</HashCode>
+      <FileName>include\vector2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::core::vector3d&lt;T&gt;" Collapsed="true">
+    <Position X="26.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIABUIAAAQAQAAQAAIAAAAEBAQAAgAAAAYAE=</HashCode>
+      <FileName>include\vector3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::IVideoDriver" Collapsed="true">
+    <Position X="21" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAIQAAgADAAEABAAEAAUGQAAABAAgAgA0AAA=</HashCode>
+      <FileName>include\IVideoDriver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::Color" Collapsed="true">
+    <Position X="62.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAABAAgAAAYAAUAAAAAAAACAAAAAoAEAGIA=</HashCode>
+      <FileName>include\Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::Colorf" Collapsed="true">
+    <Position X="64.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAoAQABgAAAAAA=</HashCode>
+      <FileName>include\Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::ITexture" Collapsed="true">
+    <Position X="8" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACFACAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\ITexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CTRFlat" Collapsed="true">
+    <Position X="8.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>CTRFlat.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CTRFlatWire" Collapsed="true">
+    <Position X="10.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>CTRFlatWire.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CTRGouraud" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>CTRGouraud.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CTRGouraudWire" Collapsed="true">
+    <Position X="15" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CTRGouraudWire.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CTRTextureFlat" Collapsed="true">
+    <Position X="17.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CTRTextureFlat.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CTRTextureFlatWire" Collapsed="true">
+    <Position X="19.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>CTRTextureFlatWire.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CTRTextureGouraudWire" Collapsed="true">
+    <Position X="6" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CTRTextureGouraudWire.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CColorConverter" Collapsed="true">
+    <Position X="59.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAEAAAAQkAAAAACAAAAACAAAEAAg=</HashCode>
+      <FileName>CColorConverter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CDirectX8Texture" Collapsed="true">
+    <Position X="5.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEIAAFACAAgAAgABAEAAEgAADACAAAAJAAABAAAA=</HashCode>
+      <FileName>CDirectX8Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CFPSCounter" Collapsed="true">
+    <Position X="61" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAwAAAAAAAAAAAAABAAAAAQEAA=</HashCode>
+      <FileName>CFPSCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::COpenGLTexture" Collapsed="true">
+    <Position X="8" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQEIAAdACAAAAAgABAAAAEAAABAAAAAABAAIBAAAA=</HashCode>
+      <FileName>COpenGLTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CSoftwareTexture" Collapsed="true">
+    <Position X="10.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEIAAFBCAAgAAgABAAAAEAAAAAAAAAAIAAAAEAAA=</HashCode>
+      <FileName>CSoftwareTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CSurface" Collapsed="true">
+    <Position X="13.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBUgAIAANAAAkAAAASAAAEAAgQQBUBAAAAgAQAAAEQA=</HashCode>
+      <FileName>CSurface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CSurfaceLoaderBmp" Collapsed="true">
+    <Position X="18.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAASAAAAAAAAAAAABAAAAAAABACIAAAAACAAAAAA=</HashCode>
+      <FileName>CSurfaceLoaderBmp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CSurfaceLoaderJPG" Collapsed="true">
+    <Position X="21" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAABAAABAAAAAAABIAAAIAAECAACAgA=</HashCode>
+      <FileName>CSurfaceLoaderJPG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CSurfaceLoaderPSD" Collapsed="true">
+    <Position X="23.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAAAAAAAAAgIEBAAABACABAAQAAAAACAAAACA=</HashCode>
+      <FileName>CSurfaceLoaderPSD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CSurfaceLoaderTGA" Collapsed="true">
+    <Position X="25.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABIAAAAAABCAAAAAAACAAAAAA=</HashCode>
+      <FileName>CSurfaceLoaderTGA.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CTRTextureGouraud" Collapsed="true">
+    <Position X="12.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAAAAARAgBAIQAAAJAkAAAAAAJgAAYBAgAIAAA=</HashCode>
+      <FileName>CTRTextureGouraud.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CVideoDirectX8" Collapsed="true">
+    <Position X="18.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEACUQICAIQAiAADAAEABCEEAAQGQAk4BAACAgAABAQ=</HashCode>
+      <FileName>CVideoDirectX8.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CVideoNull" Collapsed="true">
+    <Position X="21" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQSAAIQABgBDAAMABgAEAARGQAIIBAAgAgi0AAA=</HashCode>
+      <FileName>CVideoNull.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CVideoOpenGL" Collapsed="true">
+    <Position X="21" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAASCAAAAEAAAEEACQFAAAIBAAACAABAAA=</HashCode>
+      <FileName>CVideoOpenGL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CVideoSoftware" Collapsed="true">
+    <Position X="23.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAACAAAAIQEAAADgAEEAAQEQAREAEAgJCIJAkABCAA=</HashCode>
+      <FileName>CVideoSoftware.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::CZBuffer" Collapsed="true">
+    <Position X="22.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAMIAAgAgAIAAAAAAAAAAAAAAAACAAAAAgQAA=</HashCode>
+      <FileName>CZBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::IK3DTriangleRenderer" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAEAAAAAEAgAAAAAgAAAAA=</HashCode>
+      <FileName>IK3DTriangleRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::ISurface" Collapsed="true">
+    <Position X="13.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ERUgAIAANAAAAAAAASAAAEAAAAAAUAAAAAgAAAAAAQA=</HashCode>
+      <FileName>ISurface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::ISurfaceLoader" Collapsed="true">
+    <Position X="22" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAACEAAAAA=</HashCode>
+      <FileName>ISurfaceLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::ISurfacePresenter" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISurfacePresenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::video::IZBuffer" Collapsed="true">
+    <Position X="22.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAEIAACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IZBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::IAnimatedMesh" Collapsed="true">
+    <Position X="13" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IAnimatedMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::IAnimatedMeshSceneNode" Collapsed="true">
+    <Position X="31.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAgAAAAAAAIAAAAAIBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IAnimatedMeshSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::IBillboardSceneNode" Collapsed="true">
+    <Position X="34" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IBillboardSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::IBspTreeSceneNode" Collapsed="true">
+    <Position X="36.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IBspTreeSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::ICameraSceneNode" Collapsed="true">
+    <Position X="17.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAiIgAggAAAAACEABAAAAAAAFoAAgAgABABAAAAA=</HashCode>
+      <FileName>include\ICameraSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::ILightSceneNode" Collapsed="true">
+    <Position X="38.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\ILightSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::IMesh" Collapsed="true">
+    <Position X="15.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAIAAgCAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>include\IMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::IMeshBuffer" Collapsed="true">
+    <Position X="9" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABgBAAAAACAAAAAABAAAAAAAAAAEAAAQAAA=</HashCode>
+      <FileName>include\IMeshBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::IQ3LevelMesh" Collapsed="true">
+    <Position X="26.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IQ3LevelMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::ISceneNode" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAgCAAMAkICEADAEQAQIAEgASAJCAAAcAAwQDEY=</HashCode>
+      <FileName>include\ISceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::ISceneNodeAnimator" Collapsed="true">
+    <Position X="14.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>include\ISceneNodeAnimator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::ISceneManager" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAgAAAgAAACAAQAQAAgAEAAgAEAwABAAAIAAgAACg=</HashCode>
+      <FileName>include\ISceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CAnimatedMeshMD2" Collapsed="true">
+    <Position X="9" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>REAEERAAAFABAMAAATgAIAABBCAAABAAABAEAAQQAAM=</HashCode>
+      <FileName>CAnimatedMeshMD2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CAnimatedMeshMS3D" Collapsed="true">
+    <Position X="6" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RUAEABAAAFABAIAAASAAAAAABCAAAAAAEAAEAAAQAgE=</HashCode>
+      <FileName>CAnimatedMeshMS3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CAnimatedMeshSceneNode" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QECAAAAEAAAAAgAAgCAAAIAAAEIARAAAAQIEAAAQAgA=</HashCode>
+      <FileName>CAnimatedMeshSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CBillboardSceneNode" Collapsed="true">
+    <Position X="34" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAQAAIAIAAgAgAACAAAAAAAEAQAAAAAAAEAgAQAAA=</HashCode>
+      <FileName>CBillboardSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CBspTree" Collapsed="true">
+    <Position X="57.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAEAgooQECAAgAAAAAgwAgFAAEAFAAAQAhAIIACQAAA=</HashCode>
+      <FileName>CBspTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CBspTreeSceneNode" Collapsed="true">
+    <Position X="36.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAAAAACCAAAAAIAAIAAAAAAAAEAAAQAAA=</HashCode>
+      <FileName>CBspTreeSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CCameraMayaSceneNode" Collapsed="true">
+    <Position X="8.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAwAABAAAAAQAAAAEQAEAgIAACHAAjSAYAAAAYAAQA=</HashCode>
+      <FileName>CCameraMayaSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CCameraSceneNode" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFQQQyIgRggAAAAAAGABQCAIAAIFoAAgGgAEABAQAAA=</HashCode>
+      <FileName>CCameraSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CLightSceneNode" Collapsed="true">
+    <Position X="38.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAACAAAAAQAAAAAAAAgAAEEAAQAAA=</HashCode>
+      <FileName>CLightSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CMeshSceneNode" Collapsed="true">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAAAAAAACAAAAIAAEIAAAAACQAEAAAQAAA=</HashCode>
+      <FileName>CMeshSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::COctTreeSceneNode" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>REAAAABAAAECAAAAACAAAAAIAEIAAQAAAAAEAAAQAAA=</HashCode>
+      <FileName>COctTreeSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CQ3LevelMesh" Collapsed="true">
+    <Position X="26.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KEAsAJCQBAgAYABQAQABgAAACACggAFBEUMAlAoAAAg=</HashCode>
+      <FileName>CQ3LevelMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CSceneManager" Collapsed="true">
+    <Position X="22.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAkICAAAAACCgQASAEgAMAAgIEgwAFAAAIhAgQACg=</HashCode>
+      <FileName>CSceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CSceneNodeAnimatorFlyCircle" Collapsed="true">
+    <Position X="13.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAAAAAAAABAAAIAAAAEAAAAAAAgAA=</HashCode>
+      <FileName>CSceneNodeAnimatorFlyCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CSceneNodeAnimatorRotation" Collapsed="true">
+    <Position X="15.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAIAEAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSceneNodeAnimatorRotation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CStaticMeshOBJ" Collapsed="true">
+    <Position X="12" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkABAAAAAAAAAAAQAAAAwAAAAABAAAASAAAAABQAA=</HashCode>
+      <FileName>CStaticMeshOBJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::scene::CTestSceneNode" Collapsed="true">
+    <Position X="27.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAEAAQAAAACAAAAIAAEIAAAAAEAAEAAAQAAA=</HashCode>
+      <FileName>CTestSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::IFileList" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAFAgAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IFileList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::IReadFile" Collapsed="true">
+    <Position X="8" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAIAAAAACBAAAAAAgAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IReadFile.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::IFileSystem" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAACIAAAAAAAAEAAAAAAAAIAAACAAAAAAIA=</HashCode>
+      <FileName>include\IFileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::CFileList" Collapsed="true">
+    <Position X="15.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAQAAAAAAAAAAFAgAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>CFileList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::CZipReader" Collapsed="true">
+    <Position X="66.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAEBAAAAAAAAAEAAABAQQCEAAAAIAgAAAAABAQ=</HashCode>
+      <FileName>CZipReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::CFileSystem" Collapsed="true">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAAAAAAACIAAACEAAAEAAAAAAAAIAAACAAAQAAAA=</HashCode>
+      <FileName>CFileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::CLimitReadFile" Collapsed="true">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIgYQAAAACBAAABAAAAMAAIAAAAAAAiAAAA=</HashCode>
+      <FileName>CLimitReadFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::CMemoryReadFile" Collapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIIAIQIAAACBAAAAQAACIAAAAAAAAAAAAQBA=</HashCode>
+      <FileName>CMemoryReadFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::io::CReadFile" Collapsed="true">
+    <Position X="10.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAIAIQABAACBAIAAAQAAMAAAAAAAAACAAAAA=</HashCode>
+      <FileName>CReadFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::os::Warning" Collapsed="true">
+    <Position X="64.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>os.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::os::Debuginfo" Collapsed="true">
+    <Position X="54" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>os.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::os::Randomizer" Collapsed="true">
+    <Position X="57.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>os.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="irr::os::Timer" Collapsed="true">
+    <Position X="62.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>os.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SEnvMapper" Collapsed="true">
+    <Position X="62.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CIrrDeviceWin32.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00b7_1" Collapsed="true">
+    <Position X="39.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACQAAAABAAAAAABAAAAAAAACAAAAAAAAgAAA=</HashCode>
+      <FileName>jpeglib\JCCOEFCT.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00b8_1" Collapsed="true">
+    <Position X="42.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCCOLOR.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00b9_1" Collapsed="true">
+    <Position X="39.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>jpeglib\JCDCTMGR.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00ba_1" Collapsed="true">
+    <Position X="22.5" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>jpeglib\JCHUFF.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00ba_2" Collapsed="true">
+    <Position X="35.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAGAAAAAAAAAAAAAAAAAAACAAAAAgBAACAAAQAAAA=</HashCode>
+      <FileName>jpeglib\JCHUFF.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00ba_3" Collapsed="true">
+    <Position X="51.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>jpeglib\JCHUFF.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00bd_1" Collapsed="true">
+    <Position X="25.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAQAAAAAAAAAAAgAAAAAAAAABAABBAAAA=</HashCode>
+      <FileName>jpeglib\JCMAINCT.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00bf_2" Collapsed="true">
+    <Position X="14.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAEAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>jpeglib\JCMASTER.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00c3_1" Collapsed="true">
+    <Position X="13.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAKgAQCACAAAIChgAAAAAAgAAAAAAAAAAAAAQEACA=</HashCode>
+      <FileName>jpeglib\JCPHUFF.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00c4_1" Collapsed="true">
+    <Position X="37.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAQAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>jpeglib\JCPREPCT.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00c5_1" Collapsed="true">
+    <Position X="37.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>jpeglib\JCSAMPLE.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00c6_1" Collapsed="true">
+    <Position X="54" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAABAAAAAABAAAAgAAACAAAAAAAAgAAA=</HashCode>
+      <FileName>jpeglib\JCTRANS.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00c9_1" Collapsed="true">
+    <Position X="24.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDATADST.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00ca_1" Collapsed="true">
+    <Position X="3.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAABAAQAAAAA=</HashCode>
+      <FileName>jpeglib\JDATASRC.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00cb_1" Collapsed="true">
+    <Position X="55.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACQAAAAAABAAAABAAAAAAAAABAAAAAAAgAAA=</HashCode>
+      <FileName>jpeglib\JDCOEFCT.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00cc_1" Collapsed="true">
+    <Position X="49.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACgAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDCOLOR.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00ce_1" Collapsed="true">
+    <Position X="38.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDDCTMGR.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00cf_1" Collapsed="true">
+    <Position X="57.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00cf_2" Collapsed="true">
+    <Position X="42.5" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAAAAAAAAAAACAAAAAgBAAAAAAQAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d1_1" Collapsed="true">
+    <Position X="35.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>jpeglib\JDINPUT.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d2_1" Collapsed="true">
+    <Position X="59.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAQgAIBAAAAAAAAAAAAAAAABEAgBAAAA=</HashCode>
+      <FileName>jpeglib\JDMAINCT.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d4_1" Collapsed="true">
+    <Position X="38.5" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDMASTER.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d5_1" Collapsed="true">
+    <Position X="34.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACgAAAAAAAAACAAAAAAAAAAAAAABAAIAAgAEAQAI=</HashCode>
+      <FileName>jpeglib\JDMERGE.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d6_1" Collapsed="true">
+    <Position X="61" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDPHUFF.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d6_2" Collapsed="true">
+    <Position X="34.5" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAACAAAAAAAACAAAAAgAAAAAAAQAAAA=</HashCode>
+      <FileName>jpeglib\JDPHUFF.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d7_1" Collapsed="true">
+    <Position X="28.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAAAAAAAAAQAAAAAAABACAABAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDPOSTCT.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d8_1" Collapsed="true">
+    <Position X="62.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIAAACAAAAAAAAgQAQAAAAAAAAAAQAAAQAA=</HashCode>
+      <FileName>jpeglib\JDSAMPLE.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e4_3" Collapsed="true">
+    <Position X="14.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAAgIAAAAAAAAAEAAAAAAAQAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jvirt_sarray_control" Collapsed="true">
+    <Position X="45.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAAACAAAQAQAAAAQCAQgAAAAAAAAYECAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jvirt_barray_control" Collapsed="true">
+    <Position X="41.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAQACAAAQAQAAAAQCAQgAAAAAAAAYECAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00eb_1" Collapsed="true">
+    <Position X="34.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJECAAAAAAACAACAAAAAAAAAMAAAAAAAIAAAAAAQAA=</HashCode>
+      <FileName>jpeglib\JQUANT1.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00ec_1" Collapsed="true">
+    <Position X="64.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBCEAAAAAAAAAAAAAgAAAAAECAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00ec_2" Collapsed="true">
+    <Position X="13.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABEEAAAAAAAAAAAIAAgAAAAAAABAAAAAACCAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cjpeg_source_struct" Collapsed="true">
+    <Position X="49.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAAABAgAAAAAA=</HashCode>
+      <FileName>jpeglib\CDJPEG.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="djpeg_dest_struct" Collapsed="true">
+    <Position X="18.5" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAABAgAAAAAA=</HashCode>
+      <FileName>jpeglib\CDJPEG.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cdjpeg_progress_mgr" Collapsed="true">
+    <Position X="50.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAIAA=</HashCode>
+      <FileName>jpeglib\CDJPEG.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00bb_1" Collapsed="true">
+    <Position X="49.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCHUFF.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d0_1" Collapsed="true">
+    <Position X="49.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAAAACAIAAAAAAAAAAAAAgACAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d0_2" Collapsed="true">
+    <Position X="30.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAUAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00d0_3" Collapsed="true">
+    <Position X="26.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAIACAAAAEAAABAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="backing_store_struct" Collapsed="true">
+    <Position X="31.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMSYS.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_comp_master" Collapsed="true">
+    <Position X="64.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_c_main_controller" Collapsed="true">
+    <Position X="55.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_c_prep_controller" Collapsed="true">
+    <Position X="57.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_c_coef_controller" Collapsed="true">
+    <Position X="54" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_color_converter" Collapsed="true">
+    <Position X="59.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_downsampler" Collapsed="true">
+    <Position X="61" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_forward_dct" Collapsed="true">
+    <Position X="54" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_entropy_encoder" Collapsed="true">
+    <Position X="64.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_marker_writer" Collapsed="true">
+    <Position X="61" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_decomp_master" Collapsed="true">
+    <Position X="57.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_input_controller" Collapsed="true">
+    <Position X="55.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_d_main_controller" Collapsed="true">
+    <Position X="54" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_d_coef_controller" Collapsed="true">
+    <Position X="66.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_d_post_controller" Collapsed="true">
+    <Position X="55.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_marker_reader" Collapsed="true">
+    <Position X="59.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAEAEAAIAAAAAAAAAEAAABAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_entropy_decoder" Collapsed="true">
+    <Position X="62.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_inverse_dct" Collapsed="true">
+    <Position X="57.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_upsampler" Collapsed="true">
+    <Position X="54" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_color_deconverter" Collapsed="true">
+    <Position X="61" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_color_quantizer" Collapsed="true">
+    <Position X="62.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e9_1" Collapsed="true">
+    <Position X="47.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e9_2" Collapsed="true">
+    <Position X="47.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e9_3" Collapsed="true">
+    <Position X="46.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAARAIIABCkBQggAAAAAAEAAAAAAABEAAASCAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00e9_4" Collapsed="true">
+    <Position X="22.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAIAAABAAAAAAAAAAAABAAAAAAIIAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_common_struct" Collapsed="true">
+    <Position X="45.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_compress_struct" Collapsed="true">
+    <Position X="45.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEABUEABIABpAZBBQACEBAARRAKSIwEYIiAAQCwIDQ=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_decompress_struct" Collapsed="true">
+    <Position X="45.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QFAQTUEkBIABpJRhAEQGABwABZAOQo0nYIiAFQYisDY=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_error_mgr" Collapsed="true">
+    <Position X="66.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAEgAAAACAAAABAAEAAAACAAAAAgBAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_progress_mgr" Collapsed="true">
+    <Position X="64.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAACAAAIAAAAAAAAgAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_destination_mgr" Collapsed="true">
+    <Position X="59.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAEAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_source_mgr" Collapsed="true">
+    <Position X="66.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="jpeg_memory_mgr" Collapsed="true">
+    <Position X="62.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="config_s" Collapsed="true">
+    <Position X="43.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAEAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="static_tree_desc_s" Collapsed="true">
+    <Position X="25.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAQABAAAgAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>zlib\trees.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ptr_table_s" Collapsed="true">
+    <Position X="33.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>zlib\zutil.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ct_data_s" Collapsed="true">
+    <Position X="29.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tree_desc_s" Collapsed="true">
+    <Position X="43.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAhAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="internal_state" Collapsed="true">
+    <Position X="14.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sARSFAwRuqDSBCAAAgAIIRQAIYGEoIBoASBCIAEBBCg=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_00fa_1" Collapsed="true">
+    <Position X="32.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIEAAAAAIACCgAIAGgAAACQEAAAAEAARQAAABAgA=</HashCode>
+      <FileName>zlib\gzguts.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="inflate_state" Collapsed="true">
+    <Position X="66.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEMIpACMAAGQAUASgAAAAQBAAAAOAEAAYCIAQgQ=</HashCode>
+      <FileName>zlib\inflate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0105_1" Collapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>zlib\inftrees.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="z_stream_s" Collapsed="true">
+    <Position X="29.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAEAAAIAAAACQAAAIICAAEEAAQAAAEAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gz_header_s" Collapsed="true">
+    <Position X="20.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBACAAQAAEAAAABAABAAAAAAAEAAAIAAkQAAAAAQA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gzFile_s" Collapsed="true">
+    <Position X="41.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::SEvent" Collapsed="true">
+    <Position X="64.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::video::SMaterial" Collapsed="true">
+    <Position X="54" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQIAAAQAgAAAAAAIAAAAAACAAAAAAEAAgAA=</HashCode>
+      <FileName>include\SMaterial.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::video::S3DVertex" Collapsed="true">
+    <Position X="55.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAACMAAAAAAAAgAAAAgA=</HashCode>
+      <FileName>include\S3DVertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::video::S3DVertex2TCoords" Collapsed="true">
+    <Position X="57.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAACIAAAAAAAAoAAAAgA=</HashCode>
+      <FileName>include\S3DVertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::video::SLight" Collapsed="true">
+    <Position X="66.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAACAAgAAAAAAAAAAAAAACAgAAAAGAEgAA=</HashCode>
+      <FileName>include\SLight.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::video::SBMPHeader" Collapsed="true">
+    <Position X="59.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAABAgAAABAEACAAEAAAQAAAQggAAIAgAAAAAg=</HashCode>
+      <FileName>CSurfaceLoaderBmp.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::video::PsdHeader" Collapsed="true">
+    <Position X="66.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASAAAAAAAASIQAAAAAAAAAAAAAAAAAAQIAAAAAA=</HashCode>
+      <FileName>CSurfaceLoaderPSD.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::video::STGAHeader" Collapsed="true">
+    <Position X="66.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABACBAAAAAAACAAAACAAAoAAAQAAIAAiAAA=</HashCode>
+      <FileName>CSurfaceLoaderTGA.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::video::S2DVertex" Collapsed="true">
+    <Position X="54" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAAAAgAAAAgA=</HashCode>
+      <FileName>S2DVertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SViewFrustrum" Collapsed="true">
+    <Position X="54" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAEAAAAAAAAgAAAAAAAgAABEAAAAAAAAA=</HashCode>
+      <FileName>include\ICameraSceneNode.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMesh" Collapsed="true">
+    <Position X="17.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BADAAIAAAAAAAIAAACAAAAAIACAAAAAIAAAAAAAAAAE=</HashCode>
+      <FileName>include\SMesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMeshBuffer" Collapsed="true">
+    <Position X="8" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEBAAgAAAFABAAAAACAAAAAABCAAAAAAEAAEAAgQAAA=</HashCode>
+      <FileName>include\SMeshBuffer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMeshBufferLightMap" Collapsed="true">
+    <Position X="10.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEBAAAAAAFABAAAAACAAAABAhCAAAAAAEAAEAAAQAAA=</HashCode>
+      <FileName>include\SMeshBufferLightMap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMD2Header" Collapsed="true">
+    <Position X="59.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAVDAAAAAAAAEAAAIAAAAEAgAYAAAAKAAAAAAQABI=</HashCode>
+      <FileName>CAnimatedMeshMD2.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMD2Vertex" Collapsed="true">
+    <Position X="64.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>CAnimatedMeshMD2.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMD2Frame" Collapsed="true">
+    <Position X="55.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAUAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CAnimatedMeshMD2.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMD2Triangle" Collapsed="true">
+    <Position X="62.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>CAnimatedMeshMD2.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMD2TextureCoordinate" Collapsed="true">
+    <Position X="61" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAA=</HashCode>
+      <FileName>CAnimatedMeshMD2.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SMD2GLCommand" Collapsed="true">
+    <Position X="57.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRAAAAAAAA=</HashCode>
+      <FileName>CAnimatedMeshMD2.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::MS3DHeader" Collapsed="true">
+    <Position X="55.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CAnimatedMeshMS3D.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::MS3DVertex" Collapsed="true">
+    <Position X="64.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAAABAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CAnimatedMeshMS3D.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::MS3DTriangle" Collapsed="true">
+    <Position X="62.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBAAAAAAAAAAAAEAAAAAAAAAAAAQQAAAAAACEAAA=</HashCode>
+      <FileName>CAnimatedMeshMS3D.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::MS3DMaterial" Collapsed="true">
+    <Position X="61" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAYgAAAAAAgAAAAQAAACAAAAAIAIAAEAAAAA=</HashCode>
+      <FileName>CAnimatedMeshMS3D.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::MS3DJoint" Collapsed="true">
+    <Position X="57.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAIACAAAAAARgAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CAnimatedMeshMS3D.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::MS3DKeyframe" Collapsed="true">
+    <Position X="59.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>CAnimatedMeshMS3D.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::scene::SBspTreeStats" Collapsed="true">
+    <Position X="61" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAIAQAgIAAAIAQAAAAIAAEAEAAEABAAAAQgAAAA=</HashCode>
+      <FileName>CBspTree.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::io::SZIPFileDataDescriptor" Collapsed="true">
+    <Position X="55.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CZipReader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::io::SZIPFileHeader" Collapsed="true">
+    <Position X="59.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAAAiAAAAEAEAAAAAAAACAAAAIAAAAAAA=</HashCode>
+      <FileName>CZipReader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irr::io::SZipFileEntry" Collapsed="true">
+    <Position X="57.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAQAAAAAAAAAAAICAQAAAAAAAAAAAAAgAAAABAA=</HashCode>
+      <FileName>CZipReader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="irr::u8" Collapsed="true">
+    <Position X="54" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::s8" Collapsed="true">
+    <Position X="57.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::c8" Collapsed="true">
+    <Position X="55.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::u16" Collapsed="true">
+    <Position X="64.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::s16" Collapsed="true">
+    <Position X="66.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::u32" Collapsed="true">
+    <Position X="66.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::s32" Collapsed="true">
+    <Position X="54" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::s64" Collapsed="true">
+    <Position X="55.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::f32" Collapsed="true">
+    <Position X="62.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::f64" Collapsed="true">
+    <Position X="64.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrTypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::core::stringc" Collapsed="true">
+    <Position X="28.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrstring.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::core::stringw" Collapsed="true">
+    <Position X="27.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\irrstring.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::core::vector2df" Collapsed="true">
+    <Position X="25.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\vector2d.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::core::vector2di" Collapsed="true">
+    <Position X="23.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\vector2d.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::core::vector3df" Collapsed="true">
+    <Position X="29.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\vector3d.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="irr::core::vector3di" Collapsed="true">
+    <Position X="26.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\vector3d.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_coef_controller" Collapsed="true">
+    <Position X="39.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCCOEFCT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_coef_ptr" Collapsed="true">
+    <Position X="39.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCCOEFCT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_color_converter" Collapsed="true">
+    <Position X="39.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCCOLOR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_cconvert_ptr" Collapsed="true">
+    <Position X="41.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCCOLOR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_fdct_controller" Collapsed="true">
+    <Position X="39.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCDCTMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_fdct_ptr" Collapsed="true">
+    <Position X="39.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCDCTMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="savable_state" Collapsed="true">
+    <Position X="22.5" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCHUFF.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="huff_entropy_encoder" Collapsed="true">
+    <Position X="32.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCHUFF.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="huff_entropy_ptr" Collapsed="true">
+    <Position X="32.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCHUFF.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="working_state" Collapsed="true">
+    <Position X="51.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCHUFF.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_main_controller" Collapsed="true">
+    <Position X="28.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCMAINCT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_main_ptr" Collapsed="true">
+    <Position X="28.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCMAINCT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JPEG_MARKER" Collapsed="true">
+    <Position X="6.5" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCMARKER.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="c_pass_type" Collapsed="true">
+    <Position X="50.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCMASTER.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_comp_master" Collapsed="true">
+    <Position X="17.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCMASTER.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_master_ptr" Collapsed="true">
+    <Position X="17.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCMASTER.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="phuff_entropy_encoder" Collapsed="true">
+    <Position X="10.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCPHUFF.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="phuff_entropy_ptr" Collapsed="true">
+    <Position X="10.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCPHUFF.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_prep_controller" Collapsed="true">
+    <Position X="37.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCPREPCT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_prep_ptr" Collapsed="true">
+    <Position X="37.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCPREPCT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JMETHOD" Collapsed="true">
+    <Position X="64.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCSAMPLE.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_downsampler" Collapsed="true">
+    <Position X="36.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCSAMPLE.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_downsample_ptr" Collapsed="true">
+    <Position X="36.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCSAMPLE.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_destination_mgr" Collapsed="true">
+    <Position X="21.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDATADST.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_dest_ptr" Collapsed="true">
+    <Position X="21.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDATADST.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_source_mgr" Collapsed="true">
+    <Position X="6.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDATASRC.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_src_ptr" Collapsed="true">
+    <Position X="6.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDATASRC.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_color_deconverter" Collapsed="true">
+    <Position X="49.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDCOLOR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_idct_controller" Collapsed="true">
+    <Position X="35.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDDCTMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_idct_ptr" Collapsed="true">
+    <Position X="37.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDDCTMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="multiplier_table" Collapsed="true">
+    <Position X="59.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDDCTMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="huff_entropy_decoder" Collapsed="true">
+    <Position X="42.5" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_input_controller" Collapsed="true">
+    <Position X="35.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDINPUT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_inputctl_ptr" Collapsed="true">
+    <Position X="35.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDINPUT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_decomp_master" Collapsed="true">
+    <Position X="38.5" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDMASTER.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_upsampler" Collapsed="true">
+    <Position X="32.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDMERGE.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_upsample_ptr" Collapsed="true">
+    <Position X="32.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDMERGE.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="phuff_entropy_decoder" Collapsed="true">
+    <Position X="34.5" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDPHUFF.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_post_controller" Collapsed="true">
+    <Position X="28.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDPOSTCT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_post_ptr" Collapsed="true">
+    <Position X="28.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDPOSTCT.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="small_pool_ptr" Collapsed="true">
+    <Position X="61" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="small_pool_hdr" Collapsed="true">
+    <Position X="59.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="large_pool_ptr" Collapsed="true">
+    <Position X="55.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="large_pool_hdr" Collapsed="true">
+    <Position X="54" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_memory_mgr" Collapsed="true">
+    <Position X="17.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_mem_ptr" Collapsed="true">
+    <Position X="17.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMMGR.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ODITHER_MATRIX" Collapsed="true">
+    <Position X="61" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT1.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ODITHER_MATRIX_PTR" Collapsed="true">
+    <Position X="62.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT1.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FSERROR" Collapsed="true">
+    <Position X="33.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT1.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LOCFSERROR" Collapsed="true">
+    <Position X="57.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT1.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FSERRPTR" Collapsed="true">
+    <Position X="35.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT1.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_cquantizer" Collapsed="true">
+    <Position X="33.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT1.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_cquantize_ptr" Collapsed="true">
+    <Position X="33.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT1.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="histcell" Collapsed="true">
+    <Position X="6.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="histptr" Collapsed="true">
+    <Position X="3.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hist1d" Collapsed="true">
+    <Position X="6.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hist2d" Collapsed="true">
+    <Position X="2.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hist3d" Collapsed="true">
+    <Position X="2.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="box" Collapsed="true">
+    <Position X="10.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="boxptr" Collapsed="true">
+    <Position X="10.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JQUANT2.C</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ADDON_MESSAGE_CODE" Collapsed="true">
+    <Position X="49.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\CDERROR.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cjpeg_source_ptr" Collapsed="true">
+    <Position X="49.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\CDJPEG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="djpeg_dest_ptr" Collapsed="true">
+    <Position X="18.5" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\CDJPEG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cd_progress_ptr" Collapsed="true">
+    <Position X="49.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\CDJPEG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="c_derived_tbl" Collapsed="true">
+    <Position X="49.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCHUFF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DCTELEM" Collapsed="true">
+    <Position X="59.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDCT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ISLOW_MULT_TYPE" Collapsed="true">
+    <Position X="61" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDCT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IFAST_MULT_TYPE" Collapsed="true">
+    <Position X="55.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDCT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FLOAT_MULT_TYPE" Collapsed="true">
+    <Position X="66.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDCT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="d_derived_tbl" Collapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="bit_buf_type" Collapsed="true">
+    <Position X="10.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="bitread_perm_state" Collapsed="true">
+    <Position X="30.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="bitread_working_state" Collapsed="true">
+    <Position X="26.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JDHUFF.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_MESSAGE_CODE" Collapsed="true">
+    <Position X="14.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JERROR.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="XMSH" Collapsed="true">
+    <Position X="64.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMSYS.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EMSH" Collapsed="true">
+    <Position X="61" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMSYS.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="handle_union" Collapsed="true">
+    <Position X="54" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMSYS.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="backing_store_ptr" Collapsed="true">
+    <Position X="31.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMSYS.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="backing_store_info" Collapsed="true">
+    <Position X="31.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMEMSYS.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JSAMPLE" Collapsed="true">
+    <Position X="24.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JCOEF" Collapsed="true">
+    <Position X="0.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JOCTET" Collapsed="true">
+    <Position X="66.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT8" Collapsed="true">
+    <Position X="55.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT16" Collapsed="true">
+    <Position X="9.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="INT16" Collapsed="true">
+    <Position X="36.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="INT32" Collapsed="true">
+    <Position X="10.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JDIMENSION" Collapsed="true">
+    <Position X="62.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="boolean" Collapsed="true">
+    <Position X="54" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JMORECFG.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_BUF_MODE" Collapsed="true">
+    <Position X="48.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JSAMPROW" Collapsed="true">
+    <Position X="24.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JSAMPARRAY" Collapsed="true">
+    <Position X="21.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JSAMPIMAGE" Collapsed="true">
+    <Position X="21.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JBLOCK" Collapsed="true">
+    <Position X="3.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JBLOCKROW" Collapsed="true">
+    <Position X="3.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JBLOCKARRAY" Collapsed="true">
+    <Position X="6.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JBLOCKIMAGE" Collapsed="true">
+    <Position X="6.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JCOEFPTR" Collapsed="true">
+    <Position X="0.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JQUANT_TBL" Collapsed="true">
+    <Position X="47.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JHUFF_TBL" Collapsed="true">
+    <Position X="47.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jpeg_component_info" Collapsed="true">
+    <Position X="46.5" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jpeg_scan_info" Collapsed="true">
+    <Position X="22.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_COLOR_SPACE" Collapsed="true">
+    <Position X="18.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_DCT_METHOD" Collapsed="true">
+    <Position X="6.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="J_DITHER_MODE" Collapsed="true">
+    <Position X="45.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="j_common_ptr" Collapsed="true">
+    <Position X="45.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="j_compress_ptr" Collapsed="true">
+    <Position X="45.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="j_decompress_ptr" Collapsed="true">
+    <Position X="45.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jvirt_sarray_ptr" Collapsed="true">
+    <Position X="45.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jvirt_barray_ptr" Collapsed="true">
+    <Position X="41.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="block_state" Collapsed="true">
+    <Position X="37.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="config" Collapsed="true">
+    <Position X="43.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ptr_table" Collapsed="true">
+    <Position X="33.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ct_data" Collapsed="true">
+    <Position X="29.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="static_tree_desc" Collapsed="true">
+    <Position X="25.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tree_desc" Collapsed="true">
+    <Position X="43.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Pos" Collapsed="true">
+    <Position X="10.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Posf" Collapsed="true">
+    <Position X="10.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IPos" Collapsed="true">
+    <Position X="59.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="deflate_state" Collapsed="true">
+    <Position X="14.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_state" Collapsed="true">
+    <Position X="30.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\gzguts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_statep" Collapsed="true">
+    <Position X="31.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\gzguts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="inflate_mode" Collapsed="true">
+    <Position X="10.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\inflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="code" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\inftrees.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="codetype" Collapsed="true">
+    <Position X="42.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\inftrees.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_size_t" Collapsed="true">
+    <Position X="54" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Byte" Collapsed="true">
+    <Position X="41.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uInt" Collapsed="true">
+    <Position X="21.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uLong" Collapsed="true">
+    <Position X="41.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Bytef" Collapsed="true">
+    <Position X="41.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="charf" Collapsed="true">
+    <Position X="57.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="intf" Collapsed="true">
+    <Position X="57.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uIntf" Collapsed="true">
+    <Position X="21.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uLongf" Collapsed="true">
+    <Position X="41.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidpc" Collapsed="true">
+    <Position X="61" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidpf" Collapsed="true">
+    <Position X="62.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidp" Collapsed="true">
+    <Position X="59.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_crc_t" Collapsed="true">
+    <Position X="66.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_stream" Collapsed="true">
+    <Position X="29.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_streamp" Collapsed="true">
+    <Position X="29.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_header" Collapsed="true">
+    <Position X="17.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_headerp" Collapsed="true">
+    <Position X="17.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gzFile" Collapsed="true">
+    <Position X="41.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ptrdiff_t" Collapsed="true">
+    <Position X="64.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uch" Collapsed="true">
+    <Position X="6.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uchf" Collapsed="true">
+    <Position X="6.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ush" Collapsed="true">
+    <Position X="13.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ushf" Collapsed="true">
+    <Position X="13.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ulg" Collapsed="true">
+    <Position X="57.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TZBufferType" Collapsed="true">
+    <Position X="62.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>S2DVertex.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_00be_1" Collapsed="true">
+    <Position X="6.5" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQgBIAAAAAAAEAQABAQABACMR/AAAAABAAAIAAgAQ=</HashCode>
+      <FileName>jpeglib\JCMARKER.C</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00bf_1" Collapsed="true">
+    <Position X="50.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>jpeglib\JCMASTER.C</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00d3_1" Collapsed="true">
+    <Position X="54" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQgBIAAAAAAAEAQABAQABACMR/AAAAABAAAIAAgAQ=</HashCode>
+      <FileName>jpeglib\JDMARKER.C</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00b3_1" Collapsed="true">
+    <Position X="49.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\CDERROR.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00db_1" Collapsed="true">
+    <Position X="14.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JERROR.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00e8_1" Collapsed="true">
+    <Position X="47.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAAAAAAAAAAAAAAAAAIAAAgAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGINT.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00e9_5" Collapsed="true">
+    <Position X="18.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAABAAQAAAAAAAACAAAAAAAAAEAgA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00e9_6" Collapsed="true">
+    <Position X="6.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAEAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00e9_7" Collapsed="true">
+    <Position X="45.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>jpeglib\JPEGLIB.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00f7_1" Collapsed="true">
+    <Position X="37.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAIAACAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0103_1" Collapsed="true">
+    <Position X="10.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAFEECACQgABAwYAABAQQECAQcAAAEAAAEAAAQAAAEs=</HashCode>
+      <FileName>zlib\inflate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0105_2" Collapsed="true">
+    <Position X="41.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\inftrees.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::EEVENT_TYPE" Collapsed="true">
+    <Position X="66.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>include\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::EMOUSE_INPUT_EVENT" Collapsed="true">
+    <Position X="66.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>include\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::EKEY_CODES" Collapsed="true">
+    <Position X="64.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FioQgE0CFkAEAKhACJrlQJNBBcT/gEklLDjoTiFBFGQ=</HashCode>
+      <FileName>include\Keycodes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::gui::EGUI_EVENT_TYPE" Collapsed="true">
+    <Position X="57.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAIACAAQQAAAAAAAAAAAAAABQAI=</HashCode>
+      <FileName>include\IEventReceiver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::gui::EGUI_SKIN_TYPE" Collapsed="true">
+    <Position X="59.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>include\IGUISkin.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::gui::EGUI_DEFAULT_COLOR" Collapsed="true">
+    <Position X="54" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQEAAAAAABAAAAAAAAAkQAAAAAAISAACICEAIAABAIA=</HashCode>
+      <FileName>include\IGUISkin.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::gui::EGUI_DEFAULT_SIZE" Collapsed="true">
+    <Position X="55.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAAAAAAAAAAAAAAAAAkAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>include\IGUISkin.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::core::EIntersectionRelation3D" Collapsed="true">
+    <Position X="61" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAEBAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>include\plane3d.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::video::EDriverType" Collapsed="true">
+    <Position X="64.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAABAABAAAAAAA=</HashCode>
+      <FileName>include\EDriverTypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::video::ECOLOR_FORMAT" Collapsed="true">
+    <Position X="62.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>include\ITexture.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::video::EK3D_VIDEO_DRIVER_FEATURE" Collapsed="true">
+    <Position X="62.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAACAAAAAAQAAA=</HashCode>
+      <FileName>include\IVideoDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::video::E_TRANSFORMATION_STATE" Collapsed="true">
+    <Position X="59.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAg=</HashCode>
+      <FileName>include\IVideoDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::video::E_VERTEX_TYPE" Collapsed="true">
+    <Position X="61" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>include\S3DVertex.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::video::E_MATERIAL_TYPE" Collapsed="true">
+    <Position X="57.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAFIAAAAAAA=</HashCode>
+      <FileName>include\SMaterial.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::video::E_MATERIAL_FLAG" Collapsed="true">
+    <Position X="55.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAACwAgAAAAAECCAAAAAAAAAAA=</HashCode>
+      <FileName>include\SMaterial.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::video::ETriangleRenderer" Collapsed="true">
+    <Position X="55.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAEAASABAAAAAAAAAAAAAAAgAMgAAA=</HashCode>
+      <FileName>IK3DTriangleRenderer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="irr::scene::ESceneNodeRenderTime" Collapsed="true">
+    <Position X="54" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>include\ISceneManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

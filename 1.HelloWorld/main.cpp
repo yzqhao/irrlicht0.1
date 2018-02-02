@@ -59,13 +59,6 @@ to make it easy, we use a pragma comment lib:
 */
 #pragma comment(lib, "Irrlicht.lib")
 
-int test()
-{
-	return 1;
-}
-
-int i = test();
-
 /*
 This is the main method. We can use void main() on every platform.
 On Windows platforms, we could also use the WinMain method

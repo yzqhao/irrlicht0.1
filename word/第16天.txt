@@ -1,0 +1,22 @@
+作者在对于引擎场景管理的实现，其大部分内容是指场景节点是如何渲染的，分为哪些不同的场景结点，
+诸如动画网格节点、广告牌节点、二叉空间分割树（BspTree）节点、摄像机节点、光源节点、八叉树节点等等。
+把这部分的实现代码剥离出来，就发现场景管理的实现很简明清晰。
+ 
+昨天已经看过八叉树节点了，今天首先看网格节点。CMeshSceneNode.h/.cpp实现了如何渲染网格节点。
+同CMeshSceneNode类一样，CAnimatedMeshSceneNode.h/.cpp、CBillboardSceneNode.h/.cpp、CBspTreeSceneNode.h/.cpp、
+CCameraMayaSceneNode.h/.cpp、CCameraSceneNode.h/.cpp以及CLightSceneNode.h/.cpp中实现的节点类一样，对各自所属的不同类型的节点进行了渲染操作。
+      
+文件CBspTree.h/.cpp中Bsp（二叉空间分割）树类的实现是完成Bsp树节点的先提条件。
+该类含多个内部结构体类，如多边形、节点、Bsp树的统计等等。还有与Bsp树建树相关的方法、各种渲染操作等。
+ 
+在CAnimatedMeshMD2.h/.cpp中声明了一个动画网格类，用来载入md2文件。MD2模型是id software出品的游戏《Quake 2》中所用到的模型格式。
+文件CAnimatedMeshMS3D.h/.cpp中声明的动画网格类用于载入由MilkShape 3D模型编辑软件制作的模型文件。
+ 
+文件CQ3LevelMesh.h/.cpp中声明的CQ3LevelMesh类派生自IQ3LevelMesh接口类。用来载入Quake 3中的bsp文件，以加载文件中的纹理贴图、网格等等。
+ 
+最后看场景管理器的实现了，在CSceneManager.h/.cpp中建立的场景管理类管理所有的场景节点。
+实现了创建各种场景节点的方法以及对摄像机的相关操作、创建动画生成器等等。
+ 
+至此，引擎场景管理器的实现已经全部搞定，接下来是看图形用户界面模块的实现了。
+ 
+OVER！今天解决24个代码文件，还剩40个。

@@ -1,0 +1,19 @@
+依照看的顺序，今天先看CTRFlat.cpp，该文件实现了一个平面着色三角形的渲染器，派生于CTRTextureGouraud接口类。
+与之相关的CTRFlatWire.cpp，实现了以线框形态绘制物体的渲染器类。
+ 
+在CTRGouraud.cpp中，实现了一个用高洛德着色三角形的渲染器，同样派生于CTRTextureGouraud接口类，
+与之相关的CTRGouraudWire.cpp，实现了以线框形态绘制物体的渲染器类。
+ 
+在CTRTextureFlat.cpp中，实现了一个含纹理贴图的平面着色三角形的渲染器，派生于CTRTextureGouraud接口类，
+与之相关的CTRTextureFlatWire.cpp，实现了以线框形态绘制物体的渲染器类。
+ 
+现在就会发现CTRTextureGouraudWire.cpp文件应该紧接CTRTextureGouraud.h/.cpp后面看。
+它实现了含纹理贴图的高洛德着色法，以线框形态绘制物体的渲染器类。
+ 
+CVideoSoftware.h/.cpp ，终于到这里了，视频软件驱动程序，根据作者的注释（见EDriverTypes.h），这个驱动程序能运行在各个平台上，且不受硬件影响。
+但它运算缓慢，不确定每个绘制状态都正确。它应该只用于2D图形，虽然它也可以拥有一些比较基础的3D功能。
+CVideoSoftware类继承了CVideoNull类，实现了其没有实现的图形渲染功能。
+ 
+对于这一部分，主要还是看有关平面着色和高洛德着色的内容。
+      
+OVER！今天解决9个代码文件，还剩83个。

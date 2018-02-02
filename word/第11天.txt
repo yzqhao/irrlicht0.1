@@ -1,0 +1,13 @@
+今天首先看CSurfaceLoaderBmp.h/.cpp，顾名思义给表面载入Bmp位图。建立了BMP文件头结构。声明了一个给表面载入位图的类。在isALoadableFileFormat()函数中语句：return headerID == 'MB';应该为return headerID == "MB";，这是根据位图文件类型标志：0x424D，即字符串"BM"得出的。有读取位图数据、解压位图等方法。
+ 
+在CSurfaceLoaderJPG.h/.cpp中，使用了jpeg库。JPEG库德源代码被包含在other impl\extern\jpeglib分类目录下。CSurfaceLoaderJPG类同CSurfaceLoaderBmp类一样也是ISurfaceLoader类的派生类。有初始化数据、终止数据、跳过指定量数据、重新同步到解压初始点等方法。
+ 
+在CSurfaceLoaderPSD.h/.cpp中，一个了可以载入PSD图像的表面的类。继承了ISurfaceLoader类。有读入图像行数据、读入图像RLE数据等方法。ReadRLEImageData()方法还需细看。
+ 
+在CSurfaceLoaderTGA.h/.cpp中，创建了一个可以载入TGA图像的表面的类。
+ 
+CVideoNull.h/.cpp就是整个Null视频驱动设备的核心实现了。它声明了查询驱动程序功能、设置转换、设置材质、添加或获取纹理、添加渲染目标、设置视野区、绘制三角形索引列表、绘制2D图像、绘制矩形、重置屏幕大小、增删动态光源、获取FPS值等方法。实现了一个表面结构体。集合了文件系统、表面载入接口、纹理列表、FPS计数器等等数据成员。事实上，Null视频驱动设备是一个空设备，它可以加载纹理，但不渲染和显示任何图形，应用于无需可视化的应用程序。
+ 
+至此video impl\Null下的文件全部搞定，完成了Null类型的视频驱动程序。
+ 
+OVER！今天解决10个代码文件，还剩101个。

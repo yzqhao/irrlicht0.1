@@ -64,7 +64,7 @@ namespace core
 
 			position2d<T> operator+(const position2d<T>& other) const
 			{
-				return position2d<T>(X-other.X, Y-other.Y);
+				return position2d<T>(X+other.X, Y+other.Y);
 			}
 
 			const position2d<T>& operator=(const position2d<T>& other) 

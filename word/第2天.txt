@@ -1,0 +1,26 @@
+今天开始剖析代码，首先看include目录下的Irrlicht.h头文件。开始是关于该引擎的版权声明，然后是一长串预处理——各种头文件，因为这些头文件我们还没看过，所以先不添加，等以后看过了，在一一添加进来。这个文件包含的内容很简单，先声明一个创建引擎设备对象的函数，然后建立一个命名空间irr，在该命名空间里又分别包含了：core、gui、io、scene、video等5个命名空间。根据该头文件，我们可以先实现Irrlicht.cpp文件，但该源文件内容少的可怜，只是实现了一个Dll入口函数DllMain()，用于检测内存泄露。
+
+我们来看看Irrlicht.h文件中声明的创建引擎设备对象的函数的形参：
+IRRLICHT_API IrrlichtDevice* createDevice(video::EDriverTypedeviceType, const core::dimension2d<s32>& windowSize, u32 bits, boolfullscene, IEventReceiver* receiver = 0);
+参数deviceType：设备类型，当前可选类型有：video::DT_NULL, video::DT_SOFTWARE, video::DT_DIRECTX8和video::DT_OPENGL.
+参数windowSize：窗口大小或全屏时的视频模式。
+参数bits             ：在全屏模式下每个像素的位。若是窗口模式，则忽略。
+参数fullscene     ：如果值为true，该设备应在全屏运行。否则设备运行在窗口模式。
+参数receiver      ：用户创建事件接收器。用于返回创建的Irrlicht设备对象的指针，若创建失败，则返回NULL。
+可知接下来要看的代码是include目录下的IEventReceiver.h、IrrlichtDevice.h、irrTypes.h 3个头文件。
+
+在irrTypes.h中，为了保证引擎的可移植性，对各个数据类型进行了typedef操作。即Irrlicht引擎所有基本数据类型的集合。
+
+在IeventReceiver.h中，使用枚举类型分别保存了gui事件、鼠标事件和键盘事件三种事件类型。将全部事件类型封装成接口。因为该文件在预定义中包含了include\core目录下的position2d.h头文件，所以我们接着先看该头文件。
+
+在position2d.h中，实现了一个支持2d坐标的简单类模板。预定义中包含了irrTypes.h头文件。有X,Y2个成员数据类型，3个构造函数及系列运算符重载函数。在原文件中实现“+”运算符重载时代码有误，已被我更正。
+
+在IrrlichtDevice.h中，在预处理中包含了9个头文件，由于其中绝大部分都还没接触，所以先不添加。创建了Irrlicht引擎设备类，该类继承了IUnknown类。所以，接下来我们看IUnknown.h头文件。
+
+在IUnknown.h中，实现IUnknown类，该类建立了引用计数机制，通过grab,drop管理对象引用次数。还为每个对象的实例存储调试字符串，获取和设置调试名称。该类是Irrlicht引擎大多数类的基类。
+
+最后在看一个Keycodes.h头文件，在该头文件中，定义了键盘的键编码。 
+
+OVER,今天解决8个代码文件，还剩175个。
+
+备注：在头文件Irrlicht.h和IrrlichtDevice.h的预处理部分，还有一些头文件尚未添加。 

@@ -59,7 +59,7 @@ bool CVideoDirectX8::initDriver(const core::dimension2d<s32>& screenSize, HWND h
 								u32 bits, bool fullScreen, bool pureSoftware)
 {
 	HRESULT hr;
-	D3DLibrary = LoadLibrary( "d3d8.dll" );
+	D3DLibrary = LoadLibrary( "d3d9.dll" );
 
 	if (!D3DLibrary)
 	{
@@ -68,7 +68,7 @@ bool CVideoDirectX8::initDriver(const core::dimension2d<s32>& screenSize, HWND h
 	}
 
 	typedef IDirect3D9 * (__stdcall *D3DCREATETYPE)(UINT);
-	D3DCREATETYPE d3dCreate = (D3DCREATETYPE) GetProcAddress(D3DLibrary, "Direct3DCreate8");
+	D3DCREATETYPE d3dCreate = (D3DCREATETYPE) GetProcAddress(D3DLibrary, "Direct3DCreate9");
 
 	if (!d3dCreate)
 	{
@@ -693,13 +693,13 @@ void CVideoDirectX8::setRenderStates3DMode()
 			//pID3DDevice->SetTextureStageState (1, D3DTSS_MINFILTER,  D3DTEXF_LINEAR);
 			//pID3DDevice->SetTextureStageState (1, D3DTSS_MIPFILTER, D3DTEXF_POINT);
 
-			pID3DDevice->SetSamplerState(0, D3DSAMP_MAGFILTER, D3DTEXF_LINEAR); //改动后，DX9
-			pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_LINEAR); //改动后，DX9
-			pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_POINT); //改动后，DX9
+			pID3DDevice->SetSamplerState(0, D3DSAMP_MAGFILTER, D3DTEXF_LINEAR); //鏀瑰姩鍚庯紝DX9
+			pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_LINEAR); //鏀瑰姩鍚庯紝DX9
+			pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_POINT); //鏀瑰姩鍚庯紝DX9
 
-			pID3DDevice->SetSamplerState(1, D3DSAMP_MAGFILTER, D3DTEXF_LINEAR); //改动后，DX9
-			pID3DDevice->SetSamplerState(1, D3DSAMP_MINFILTER, D3DTEXF_LINEAR); //改动后，DX9
-			pID3DDevice->SetSamplerState(1, D3DSAMP_MINFILTER, D3DTEXF_POINT); //改动后，DX9
+			pID3DDevice->SetSamplerState(1, D3DSAMP_MAGFILTER, D3DTEXF_LINEAR); //鏀瑰姩鍚庯紝DX9
+			pID3DDevice->SetSamplerState(1, D3DSAMP_MINFILTER, D3DTEXF_LINEAR); //鏀瑰姩鍚庯紝DX9
+			pID3DDevice->SetSamplerState(1, D3DSAMP_MINFILTER, D3DTEXF_POINT); //鏀瑰姩鍚庯紝DX9
 		}
 		else
 		{
@@ -711,13 +711,13 @@ void CVideoDirectX8::setRenderStates3DMode()
 			//pID3DDevice->SetTextureStageState (1, D3DTSS_MIPFILTER, D3DTEXF_NONE);
 			//pID3DDevice->SetTextureStageState (1, D3DTSS_MAGFILTER,  D3DTEXF_POINT);
 
-			pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_POINT); //改动后，DX9
-			pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_NONE); //改动后，DX9
-			pID3DDevice->SetSamplerState(0, D3DSAMP_MAGFILTER, D3DTEXF_POINT); //改动后，DX9
+			pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_POINT); //鏀瑰姩鍚庯紝DX9
+			pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_NONE); //鏀瑰姩鍚庯紝DX9
+			pID3DDevice->SetSamplerState(0, D3DSAMP_MAGFILTER, D3DTEXF_POINT); //鏀瑰姩鍚庯紝DX9
 
-			pID3DDevice->SetSamplerState(1, D3DSAMP_MINFILTER, D3DTEXF_POINT); //改动后，DX9
-			pID3DDevice->SetSamplerState(1, D3DSAMP_MINFILTER, D3DTEXF_NONE); //改动后，DX9
-			pID3DDevice->SetSamplerState(1, D3DSAMP_MAGFILTER, D3DTEXF_POINT); //改动后，DX9
+			pID3DDevice->SetSamplerState(1, D3DSAMP_MINFILTER, D3DTEXF_POINT); //鏀瑰姩鍚庯紝DX9
+			pID3DDevice->SetSamplerState(1, D3DSAMP_MINFILTER, D3DTEXF_NONE); //鏀瑰姩鍚庯紝DX9
+			pID3DDevice->SetSamplerState(1, D3DSAMP_MAGFILTER, D3DTEXF_POINT); //鏀瑰姩鍚庯紝DX9
 		}
 	}
 
@@ -821,9 +821,9 @@ void CVideoDirectX8::setRenderStates2DMode(bool alpha, bool texture, bool alphaC
 		//pID3DDevice->SetTextureStageState (0, D3DTSS_MIPFILTER, D3DTEXF_NONE);
 		//pID3DDevice->SetTextureStageState (0, D3DTSS_MAGFILTER,  D3DTEXF_POINT);
 
-		pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_POINT); //改动后，DX9
-		pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_NONE); //改动后，DX9
-		pID3DDevice->SetSamplerState(0, D3DSAMP_MAGFILTER, D3DTEXF_POINT);	//改动后，DX9
+		pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_POINT); //鏀瑰姩鍚庯紝DX9
+		pID3DDevice->SetSamplerState(0, D3DSAMP_MINFILTER, D3DTEXF_NONE); //鏀瑰姩鍚庯紝DX9
+		pID3DDevice->SetSamplerState(0, D3DSAMP_MAGFILTER, D3DTEXF_POINT);	//鏀瑰姩鍚庯紝DX9
 
 
 		if (alphaChannel)

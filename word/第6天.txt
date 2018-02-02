@@ -1,0 +1,21 @@
+因为昨天在CZipReader.cpp中包含了other impl中的os.h文件，且目测other impl模块内容很少，所以今天首先搞定这块。
+
+在other impl\extern目录下，包含了两个开源库——zlib和jpeglib。我们先添加这两个库，jepglib库是一个jpeg压缩库，zlib是提供数据压缩用的函式库。
+
+Other impl还包含另外3个文件：fast_atof.h及os.h\.cpp。fast_atof.h从文件名可得知：快速完成从字符串到浮点类型的数据转换，比atof快6倍。在代码中使用了strtol()函数，strtol是atoi的增强版：
+long int strtol(const char*nptr,char **endptr,int base);
+对于第二个参数endptr，是一个传出参数，函数返回时指向后面未被识别的第一个字符。例如 “char *pos; strtol("123abc", &pos, 10); ”，strtol返回123，pos指向字符串中的字母a。如果字符串开头没有可识别的整数，例如 “char *pos; strtol("ABCabc", &pos, 10); ”，则strtol返回0，pos指向字符串开头，可以据此判断这种出错的情况，而这是atoi处理不了的。
+
+os.h/.cpp包含各种信息输出的功能，如系统警告信息或调试消息等。还有生成随机数，获取当前本地系统时间的功能。
+
+解决了other impl模块，接下来继续看io impl模块剩余的部分。
+
+CFileSystem.h/.cpp实现了文件管理系统的类。
+
+CLimitReadFile.h/.cpp实现了读取一定范围内的文件内容的类。
+
+CMemoryReadFile.h/.cpp实现了从内存中读取文件内容的类。
+
+至此io impl模块全部解决。
+ 
+OVER！今天解决9个代码文件，还剩142个。

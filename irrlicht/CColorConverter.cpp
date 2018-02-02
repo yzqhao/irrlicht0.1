@@ -41,35 +41,6 @@ void CColorConverter::convert4BitTo16BitFlipMirror(const c8* in, s16* out, s32 w
 
 		in+=pitch;
 	}
-
-/*	s32 shift = 0;
-	out += width*height;
-	s16* oout = out;
-
-	for (s32 y=0; y<height; ++y)
-	{
-		shift = 0;
-
-		out = oout - (y*width) - width;
-
-		for (s32 x=0; x<width; ++x)
-		{
-			*out = X8R8G8B8toA1R5G5B5(palette[(u8)((*in >> shift) & 0xf)]);
-			++out;
-
-			shift += 4;
-			if (shift>4)
-			{
-				shift = 0;
-				++in;
-			}
-		}
-
-		if (shift !=0)
-			++in;
-
-		in+=pitch;
-	}*/
 }
 
 

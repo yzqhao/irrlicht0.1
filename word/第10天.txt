@@ -1,0 +1,13 @@
+在include分类目录下的5个模块，仅剩gui模块了。我觉得gui模块算是引擎的附加功能，可以独立出来看，所以先放下这块。一鼓作气先把引擎最重要的核心部分——video、scene的实现模块搞定。
+ 
+按照之前看的顺序，先从video模块开始。在分类目录video impl下，包含Null，Software，DirectX，OpenGL四个子分类目录。根据在include\video下的EdriverTypes.h文件中定义的驱动器类型的排列顺序，我们先看video impl\Null/下的文件。
+ 
+首先是看3个接口文件。在ISurface.h中，声明了一个16位色（A1R5G5B5格式）的表面接口类。有设置获取颜色掩码、复制表面到另一个表面、加解锁表面等方法。在ISurfaceLoader.h文件中，声明了一个可以根据文件信息创建一个表面的类，类中声明了读文件载入表面等方法。在ISurfacePresenter.h中，声明了在客户区里呈现一个画面的类。
+ 
+看完3个基本接口，来看表面的实现。在CSurface.h/.cpp中，对描述表面的类进行了实现。该类继承了Isurface接口类，实现了对表面的复制、裁剪，绘制线条、矩形，操作像素等方法。在CSurface::fill()方法中，代码：s32* bufferEnd = p +(DataSize>>1); DataSize之所以除以2，是因为该表面使用16位色，而这里是32位的指针，所以DataSize要除以2。
+ 
+从CFPSCounter.h/.cpp文件名中可知这与FPS有关。CFPSCounter类内容很简单：获取当前FPS值，计算帧数。
+ 
+在CColorConverter.h/.cpp中，声明了一个转换颜色格式的类。实现了多种颜色格式的转换。
+ 
+OVER！今天解决9个代码文件，还剩111个。
